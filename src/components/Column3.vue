@@ -1,0 +1,54 @@
+<template>
+  <div class="container my-5 d-flex justify-content-center">
+    <div class="size text-center">
+      <h1 class="m-5" style="color: #0077ff">
+        Коротко о статистике
+        <hr />
+      </h1>
+
+      <div class="row align-items-center gap-5">
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card1.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">67</p>
+          <p class="fw-medium">Награды</p>
+        </div>
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card2.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">394</p>
+          <p class="fw-medium">Студентов</p>
+        </div>
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card3.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">2094</p>
+          <p class="fw-medium">Выпусников</p>
+        </div>
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card4.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">67</p>
+          <p class="fw-medium">Награды</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Column2",
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.size {
+  max-width: 1142px;
+}
+</style>
