@@ -104,7 +104,7 @@
       </div>
 
       <img
-        src="../assets/It.png"
+        src="../assets/Accounting.png"
         alt=""
         class="col-lg-6 col-md-6 col-sm-6 align-self-center"
       />
@@ -114,7 +114,7 @@
   <div class="container my-5 py-5 d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
-        Обучаемые направления
+        Обучаемые предметы
         <hr />
       </h1>
 

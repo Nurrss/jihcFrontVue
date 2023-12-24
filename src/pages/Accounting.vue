@@ -1,5 +1,5 @@
 <script>
-import Hero2 from "../components/Hero.vue";
+import Hero2 from "../components/Hero2.vue";
 import Accounting from "../components/Accounting.vue";
 
 export default {
