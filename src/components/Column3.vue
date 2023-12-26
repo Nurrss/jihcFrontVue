@@ -2,7 +2,7 @@
   <div class="container my-5 d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
-        Коротко о статистике
+        {{ $t("Column3H1") }}
         <hr />
       </h1>
 
@@ -12,28 +12,28 @@
         >
           <i class="bi"><img src="../assets/col3card1.png" alt="" /></i>
           <p class="fs-2 fw-bold m-0">67</p>
-          <p class="fw-medium">Награды</p>
+          <p class="fw-medium">{{ $t("Column3P1") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/col3card2.png" alt="" /></i>
           <p class="fs-2 fw-bold m-0">394</p>
-          <p class="fw-medium">Студентов</p>
+          <p class="fw-medium">{{ $t("Column3P2") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/col3card3.png" alt="" /></i>
           <p class="fs-2 fw-bold m-0">2094</p>
-          <p class="fw-medium">Выпусников</p>
+          <p class="fw-medium">{{ $t("Column3P3") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/col3card4.png" alt="" /></i>
           <p class="fs-2 fw-bold m-0">67</p>
-          <p class="fw-medium">Награды</p>
+          <p class="fw-medium">{{ $t("Column3P4") }}</p>
         </div>
       </div>
     </div>

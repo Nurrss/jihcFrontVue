@@ -11,6 +11,9 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Бухгалтерский учёт" podtitle="Главная / Бухгалтерский учёт" />
+  <hero2
+    :title="$t('accountingPage.title')"
+    :podtitle="$t('accountingPage.podtitle')"
+  />
   <Accounting />
 </template>

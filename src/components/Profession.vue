@@ -2,61 +2,50 @@
   <div class="container mb-4 bg-body-tertiary rounded-3">
     <div class="container-fluid py-5">
       <div class="mb-5">
-        <h1 class="display-5 fw-bold mb-5">Програмное обеспечение</h1>
+        <h1 class="display-5 fw-bold mb-5">{{ $t("ProfessionH1") }}</h1>
         <p class="mb-3">
-          В учебном заведении вы сможете получить степень ИТ-специалиста, изучая
-          различные аспекты информационных технологий, включая программирование,
-          сетевые технологии и базы данных. Обучение охватит широкий спектр тем,
-          таких как разработка программного обеспечения, администрирование
-          систем и управление проектами в сфере информационных технологий.
+          {{ $t("ProfessionP1") }}
         </p>
         <p class="mb-3">
-          Абитуриенты на эту профессию будут поступать только на грант.
+          {{ $t("ProfessionP2") }}
         </p>
 
-        <h4 class="mb-3">Языки обучения:</h4>
-        <li>казахский</li>
-        <li>английский</li>
-        <li>русский</li>
-        <li>турецкий</li>
+        <h4 class="mb-3">{{ $t("ProfessionH2") }}</h4>
+        <li>{{ $t("ProfessionLi1") }}</li>
+        <li>{{ $t("ProfessionLi2") }}</li>
+        <li>{{ $t("ProfessionLi3") }}</li>
+        <li>{{ $t("ProfessionLi4") }}</li>
 
         <button
           type="button"
           class="btn btn-primary float-end rounded-4 px-5 py-2"
         >
-          Подробнее
+          {{ $t("ProfessionBtn1") }}
         </button>
-        <p>Срок обучения 2 года 10 месяцев</p>
+        <p>{{ $t("ProfessionP3") }}</p>
       </div>
       <div>
-        <h1 class="display-5 fw-bold mb-5">Учет и аудит</h1>
+        <h1 class="display-5 fw-bold mb-5">{{ $t("ProfessionH3") }}</h1>
         <p class="mb-3">
-          Колледж обучает бухгалтерскому учету и аудиту. Специальность
-          преподается по международной программе ACCA, что открывает уникальную
-          возможность получить сертификат ACCA. Эта программа не только
-          предоставляет студентам теоретические знания в области бухгалтерии, но
-          также готовит их к соответствию международным стандартам ACCA, что
-          является важным активом для успешной карьеры в сфере финансов и
-          бизнеса.
+          {{ $t("ProfessionP4") }}
         </p>
         <p class="mb-3">
-          Абитуриенты могут обучаться по этой специальности только на платной
-          основе. Стоимость обучения ... тг
+          {{ $t("ProfessionP5") }}
         </p>
 
-        <h4 class="mb-3">Языки обучения:</h4>
-        <li>казахский</li>
-        <li>английский</li>
-        <li>русский</li>
-        <li>турецкий</li>
+        <h4 class="mb-3">{{ $t("ProfessionH4") }}</h4>
+        <li>{{ $t("ProfessionLi1") }}</li>
+        <li>{{ $t("ProfessionLi2") }}</li>
+        <li>{{ $t("ProfessionLi3") }}</li>
+        <li>{{ $t("ProfessionLi4") }}</li>
 
         <button
           type="button"
           class="btn btn-primary float-end rounded-4 px-5 py-2"
         >
-          Подробнее
+          {{ $t("ProfessionBtn1") }}
         </button>
-        <p>Срок обучения 2 года 10 месяцев</p>
+        <p>{{ $t("ProfessionP6") }}</p>
       </div>
     </div>
   </div>

@@ -4,15 +4,12 @@
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
       >
-        <h3 style="color: #0077ff">Учет и аудит</h3>
+        <h3 style="color: #0077ff">
+          {{ $t("AccountingInfoH1") }}
+        </h3>
         <hr />
         <p class="">
-          В колледже вы можете изучать бухгалтерию в рамках программы ACCA, что
-          предоставляет уникальную возможность получить сертификат ACCA. Эта
-          программа обеспечивает студентов не только теоретическими знаниями в
-          области бухгалтерии, но также подготавливает их к международному
-          стандарту ACCA, что является ценным активом в карьере в области
-          финансов и бизнеса.
+          {{ $t("AccountingInfoP1") }}
         </p>
         <ul
           class="navbar-nav justify-content-end flex-grow-1 pe-3 align-self-center d-flex"
@@ -27,24 +24,8 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Углубленное изучение английского и математики</p>
-            </div>
-          </li>
-          <li class="nav-item me-3">
-            <div
-              class="nav-link active d-flex align-self-center"
-              style="display: list-item; align-items: center"
-              aria-current="page"
-              href="#"
-            >
-              <i class="bi m-0 me-2"
-                ><img src="../assets/check.png" alt=""
-              /></i>
               <p class="m-0">
-                Обучение согласно требованиям и стандартам профессиональной
-                сертификации АССА (Британская ассоциация сертифицированных
-                присяжных бухгалтеров, объединяющая профессионалов в области
-                финансов, учета и аудита)
+                {{ $t("AccountingInfoLi1") }}
               </p>
             </div>
           </li>
@@ -58,7 +39,9 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Изучение 1С</p>
+              <p class="m-0">
+                {{ $t("AccountingInfoLi2") }}
+              </p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -71,7 +54,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Освоение казахстанского налогообложения</p>
+              <p class="m-0">{{ $t("AccountingInfoLi3") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -84,7 +67,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Опытные и продвинутые преподаватели</p>
+              <p class="m-0">{{ $t("AccountingInfoLi4") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -97,7 +80,20 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Возможность начать стажироваться в IT компании</p>
+              <p class="m-0">{{ $t("AccountingInfoLi5") }}</p>
+            </div>
+          </li>
+          <li class="nav-item me-3">
+            <div
+              class="nav-link active d-flex align-self-center"
+              style="display: list-item; align-items: center"
+              aria-current="page"
+              href="#"
+            >
+              <i class="bi m-0 me-2"
+                ><img src="../assets/check.png" alt=""
+              /></i>
+              <p class="m-0">{{ $t("AccountingInfoLi6") }}</p>
             </div>
           </li>
         </ul>
@@ -114,7 +110,8 @@
   <div class="container my-5 py-5 d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
-        Обучаемые предметы
+        {{ $t("AccountingInfoH2") }}
+
         <hr />
       </h1>
 
@@ -123,26 +120,34 @@
           class="col d-flex flex-column gap-1 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Accountingcard1.png" alt="" /></i>
-          <p class="fw-medium">Менеджмент</p>
+          <p class="fw-medium">
+            {{ $t("AccountingInfoCard1") }}
+          </p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Accountingcard2.png" alt="" /></i>
-          <p class="fw-medium">Аудит</p>
+          <p class="fw-medium">
+            {{ $t("AccountingInfoCard2") }}
+          </p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Accountingcard3.png" alt="" /></i>
-          <p class="fw-medium">Маркетинг</p>
+          <p class="fw-medium">
+            {{ $t("AccountingInfoCard3") }}
+          </p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Accountingcard4.png" alt="" /></i>
 
-          <p class="fw-medium">Финансы</p>
+          <p class="fw-medium">
+            {{ $t("AccountingInfoCard4") }}
+          </p>
         </div>
       </div>
     </div>

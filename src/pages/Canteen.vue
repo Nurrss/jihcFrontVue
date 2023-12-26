@@ -11,6 +11,9 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Столовая" podtitle="Главная / Столовая" />
+  <hero2
+    :title="$t('CantennPage.title')"
+    :podtitle="$t('CantennPage.podtitle')"
+  />
   <Canteen />
 </template>

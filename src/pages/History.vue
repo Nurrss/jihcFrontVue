@@ -11,6 +11,9 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="История колледжа" podtitle="Главная / История колледжа" />
+  <hero2
+    :title="$t('HistoryPage.title')"
+    :podtitle="$t('HistoryPage.podtitle')"
+  />
   <history />
 </template>

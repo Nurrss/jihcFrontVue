@@ -11,6 +11,9 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Подача документов" podtitle="Главная / Подача документов" />
+  <hero2
+    :title="$t('JumbotronElemPage.title')"
+    :podtitle="$t('JumbotronElemPage.podtitle')"
+  />
   <JumbotronElem />
 </template>

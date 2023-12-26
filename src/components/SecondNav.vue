@@ -33,7 +33,9 @@
               href="#"
               ><i class="bi bi-envelope h5 m-0 me-2"></i>
               <p class="m-0">
-                Напишите нам <br />
+                {{ $t("SecondNavP1") }}
+
+                <br />
                 jambyl.innovation@jihc.kz
               </p></a
             >
@@ -46,7 +48,8 @@
               href="#"
               ><i class="bi bi-telephone h5 m-0 me-2"></i>
               <p class="m-0">
-                Позвоните нам <br />
+                {{ $t("SecondNavP2") }}
+                <br />
                 +7 747 723 1289
               </p></a
             >
@@ -59,12 +62,27 @@
               role="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
+              id="lang"
             >
-              Рус
+              {{ currentLangName }}
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Каз</a></li>
-              <li><a class="dropdown-item" href="#">Рус</a></li>
+              <li>
+                <button
+                  class="dropdown-item"
+                  @click="changeLanguage('kz', 'Қаз')"
+                >
+                  Қаз
+                </button>
+              </li>
+              <li>
+                <button
+                  class="dropdown-item"
+                  @click="changeLanguage('ru', 'Рус')"
+                >
+                  Рус
+                </button>
+              </li>
             </ul>
           </li>
         </ul>
@@ -75,9 +93,31 @@
 
 <script>
 export default {
-  name: "MySecondNavbar",
+  data() {
+    return {
+      currentLangName: this.getLangName(this.$i18n.locale),
+    };
+  },
+  methods: {
+    changeLanguage(locale, langName) {
+      this.$i18n.locale = locale;
+      this.currentLangName = langName;
+      this.$root.$emit("changeLocale", locale);
+    },
+    getLangName(locale) {
+      // Add logic to get the language name based on the locale
+      if (locale === "kz") {
+        return "Қаз";
+      } else if (locale === "ru") {
+        return "Рус";
+      }
+      // Add more languages as needed
+      return locale; // Fallback to the locale if the name is not defined
+    },
+  },
 };
 </script>
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @media (min-width: 990px) and (max-width: 1225px) {

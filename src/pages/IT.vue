@@ -10,9 +10,6 @@ export default {
 };
 </script>
 <template>
-  <hero2
-    title="Информационные технологии"
-    podtitle="Главная / Информационные технологии"
-  />
+  <hero2 :title="$t('ItPage.title')" :podtitle="$t('ItPage.podtitle')" />
   <It />
 </template>

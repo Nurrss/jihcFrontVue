@@ -1,28 +1,13 @@
 <template>
   <section id="info " class="my-5 container">
     <div class="row">
-      <p class="mb-5 text-center">
-        Студенческая жизнь в нашем колледже ярко выражена разнообразием
-        культурных и спортивных мероприятий. Ежегодные мероприятии и концерты
-        создают позитивное и вдохновляющее атмосферу, позволяя студентам
-        полностью погрузиться в культурное разнообразие. Кроме того,
-        студенческие клубы и организации активно проводят соревнования,
-        способствующие развитию навыков лидерства и социальной ответственности.
-        Студенты также наслаждаются активным образом жизни благодаря спортивным
-        турнирам и тренировкам, что создает дружественную и энергичную
-        обстановку в нашем учебном заведении.
-      </p>
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
       >
-        <h1 style="color: #0077ff">Ассоциация Jameco Alumni</h1>
+        <h1 style="color: #0077ff">{{ $t("AsoocH1") }}</h1>
         <hr />
         <p class="">
-          Колледж имеет ассоциацию выпускников, которая играет важную роль в
-          поддержке и укреплении связей между бывшими студентами. Эта
-          взаимодействующая связь между ассоциацией выпускников и колледжем
-          способствует развитию образовательной среды и формированию успешных
-          будущих профессионалов.
+          {{ $t("AssocP2") }}
         </p>
         <ul
           class="navbar-nav justify-content-end flex-grow-1 pe-3 align-self-center d-flex"
@@ -36,8 +21,7 @@
             >
               <i class="bi m-0 me-2"><img src="../assets/like.png" alt="" /></i>
               <p class="m-0">
-                Система поддержки через патреон, где выпускники могут ежемесячно
-                оказывать финансовую помощь колледжу.
+                {{ $t("AssocP3") }}
               </p>
             </div>
           </li>
@@ -49,7 +33,7 @@
               href="#"
             >
               <i class="bi m-0 me-2"><img src="../assets/like.png" alt="" /></i>
-              <p class="m-0">MeetUps в разных городах</p>
+              <p class="m-0">{{ $t("AssocP4") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -60,7 +44,7 @@
               href="#"
             >
               <i class="bi m-0 me-2"><img src="../assets/like.png" alt="" /></i>
-              <p class="m-0">Мероприятия, организуемые ассоциацией</p>
+              <p class="m-0">{{ $t("AssocP5") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -71,7 +55,7 @@
               href="#"
             >
               <i class="bi m-0 me-2"><img src="../assets/like.png" alt="" /></i>
-              <p class="m-0">Подкасты выпускников</p>
+              <p class="m-0">{{ $t("AssocP6") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -82,7 +66,7 @@
               href="#"
             >
               <i class="bi m-0 me-2"><img src="../assets/like.png" alt="" /></i>
-              <p class="m-0">Jameco Store</p>
+              <p class="m-0">{{ $t("AssocP7") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -93,7 +77,7 @@
               href="#"
             >
               <i class="bi m-0 me-2"><img src="../assets/like.png" alt="" /></i>
-              <p class="m-0">30 years anniversary</p>
+              <p class="m-0">{{ $t("AssocP8") }}</p>
             </div>
           </li>
         </ul>
@@ -108,13 +92,11 @@
     <div class="row container mb-5 py-5 d-flex justify-content-center">
       <div class="size text-center">
         <h1 class="m-5" style="color: #0077ff">
-          MeetUps
+          {{ $t("AsoocH2") }}
           <hr />
         </h1>
         <p>
-          Ассоциация регулярно проводит мероприятия и встречи с выпускниками в
-          различных городах, способствуя установлению контактов и обмену опытом
-          среди выпускников.
+          {{ $t("AssocP9") }}
         </p>
       </div>
 
@@ -176,14 +158,11 @@
     <div class="row container mb-5 py-5 d-flex justify-content-center">
       <div class="size text-center">
         <h1 class="m-5" style="color: #0077ff">
-          Мероприятие
+          {{ $t("AsoocH3") }}
           <hr />
         </h1>
         <p>
-          Ассоциация регулярно организует разнообразные мероприятия. Эти
-          активности включают в себя встречи, футбол среди мужчин, и
-          соревнования, способствуя не только обмену опытом, но и поддерживая
-          дружбу и сеть профессиональных контактов.
+          {{ $t("AssocP10") }}
         </p>
       </div>
 
@@ -245,14 +224,11 @@
     <div class="row container mb-5 py-5 d-flex justify-content-center">
       <div class="size text-center">
         <h1 class="m-5" style="color: #0077ff">
-          30-летний юбилей
+          {{ $t("AsoocH4") }}
           <hr />
         </h1>
         <p>
-          Колледж недавно отметил свое 30-летие, организовав встречу для всех
-          выпускников. В теплой и дружественной обстановке выпускники вспоминали
-          студенческие годы, обменивались воспоминаниями и веселились, укрепляя
-          свои связи с учебным заведением и друг с другом.
+          {{ $t("AssocP11") }}
         </p>
       </div>
 

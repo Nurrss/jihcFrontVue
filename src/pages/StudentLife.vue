@@ -11,6 +11,6 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Студенческая жизнь" podtitle="Главная / Студенческая жизнь" />
+  <hero2 :title="$t('LifePage.title')" :podtitle="$t('LifePage.podtitle')" />
   <StudentLife />
 </template>

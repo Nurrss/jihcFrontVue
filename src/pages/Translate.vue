@@ -10,6 +10,9 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Перевод" podtitle="Главная / Подача документов" />
+  <hero2
+    :title="$t('TranslatePage.title')"
+    :podtitle="$t('TranslatePage.podtitle')"
+  />
   <Translate />
 </template>

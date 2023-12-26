@@ -11,6 +11,9 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Корпус" podtitle="Главная / Корпус" />
+  <hero2
+    :title="$t('CorpusPage.title')"
+    :podtitle="$t('CorpusPage.podtitle')"
+  />
   <Corpus />
 </template>

@@ -4,14 +4,10 @@
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
       >
-        <h3 style="color: #0077ff">Програмное обеспечение</h3>
+        <h3 style="color: #0077ff">{{ $t("ItH1") }}</h3>
         <hr />
         <p class="">
-          В колледже вы можете получить степень ИТ-специалиста, изучая различные
-          аспекты информационных технологий, включая программирование, сетевые
-          технологии и базы данных. Обучение будет охватывать широкий спектр
-          тем, таких как разработка программного обеспечения, администрирование
-          систем и управление проектами в области информационных технологий.
+          {{ $t("ItP1") }}
         </p>
         <ul
           class="navbar-nav justify-content-end flex-grow-1 pe-3 align-self-center d-flex"
@@ -26,7 +22,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Обучение на гранте</p>
+              <p class="m-0">{{ $t("ItLi1") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -39,7 +35,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Занятия на базе компетенции WorldSkills</p>
+              <p class="m-0">{{ $t("ItLi2") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -52,7 +48,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Участие в различных IT хакатонах и StartUp</p>
+              <p class="m-0">{{ $t("ItLi3") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -65,7 +61,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Обучение по модулям</p>
+              <p class="m-0">{{ $t("ItLi4") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -78,7 +74,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Опытные и продвинутые преподаватели</p>
+              <p class="m-0">{{ $t("ItLi5") }}</p>
             </div>
           </li>
           <li class="nav-item me-3">
@@ -91,7 +87,7 @@
               <i class="bi m-0 me-2"
                 ><img src="../assets/check.png" alt=""
               /></i>
-              <p class="m-0">Возможность начать стажироваться в IT компании</p>
+              <p class="m-0">{{ $t("ItLi6") }}</p>
             </div>
           </li>
         </ul>
@@ -108,7 +104,7 @@
   <div class="container my-5 py-5 d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
-        Обучаемые направления
+        {{ $t("ItH2") }}
         <hr />
       </h1>
 
@@ -117,26 +113,26 @@
           class="col d-flex flex-column gap-1 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Itcard1.png" alt="" /></i>
-          <p class="fw-medium">UI/UX дизайн</p>
+          <p class="fw-medium">{{ $t("ItCard1") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Itcard2.png" alt="" /></i>
-          <p class="fw-medium">Графический дизайн</p>
+          <p class="fw-medium">{{ $t("ItCard2") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Itcard3.png" alt="" /></i>
-          <p class="fw-medium">Веб разработка</p>
+          <p class="fw-medium">{{ $t("ItCard3") }}</p>
         </div>
         <div
           class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
         >
           <i class="bi"><img src="../assets/Itcard4.png" alt="" /></i>
 
-          <p class="fw-medium">Мобильная разработка</p>
+          <p class="fw-medium">{{ $t("ItCard4") }}</p>
         </div>
       </div>
     </div>

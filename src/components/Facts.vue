@@ -6,93 +6,90 @@
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard1.png" alt="" /></i>
-          <h2>41</h2>
+          <h2>{{ $t("Fact1H") }}</h2>
 
           <p class="f m-0 fw-normal">
-            преподаватель работают в JIHC (3 выпускника программы Болашак, 12
-            магистров наук)
+            {{ $t("Fact1P") }}
           </p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard2.png" alt="" /></i>
-          <h2>7.0</h2>
-          <p class="f m-0 fw-normal">средний балл IELTS преподавателей</p>
+          <h2>{{ $t("Fact2H") }}</h2>
+          <p class="f m-0 fw-normal">{{ $t("Fact2P") }}</p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard3.png" alt="" /></i>
-          <h2>3</h2>
-          <p class="f m-0 fw-normal">срок обучения в колледже</p>
+          <h2>{{ $t("Fact3H") }}</h2>
+          <p class="f m-0 fw-normal">{{ $t("Fact3P") }}</p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard4.png" alt="" /></i>
-          <h2>50</h2>
+          <h2>{{ $t("Fact4H") }}</h2>
           <p class="f m-0 fw-normal">
-            грантов на бесплатное обучение в колледже выделяются ежегодно
+            {{ $t("Fact4P") }}
           </p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard5.png" alt="" /></i>
-          <h2>2094</h2>
+          <h2>{{ $t("Fact5H") }}</h2>
           <p class="f m-0 fw-normal">
-            выпускников окончили наш колледж и работают по всему миру
+            {{ $t("Fact5P") }}
           </p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard6.png" alt="" /></i>
-          <h2>47</h2>
+          <h2>{{ $t("Fact5H") }}</h2>
           <p class="f m-0 fw-normal">
-            выпускников отучились в топ 200 вузах мира (Рейтинг QS Times Higher
-            Education, Рейтинг U.S. News Шанхайский рейтинг)
+            {{ $t("Fact6P") }}
           </p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard7.png" alt="" /></i>
-          <h2>37%</h2>
-          <p class="f m-0 fw-normal">выпускников сразу трудоустраиваются</p>
+          <h2>{{ $t("Fact7H") }}</h2>
+          <p class="f m-0 fw-normal">{{ $t("Fact7P") }}</p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard8.png" alt="" /></i>
-          <h2>63%</h2>
+          <h2>{{ $t("Fact8H") }}</h2>
           <p class="f m-0 fw-normal">
-            выпускников сразу поступают в вузы (НУ, СДУ, МУИТ - основные
-            направления)
+            {{ $t("Fact8P") }}
           </p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard9.png" alt="" /></i>
-          <h2>394</h2>
-          <p class="f m-0 fw-normal">студентов обучаются в колледже</p>
+          <h2>{{ $t("Fact9H") }}</h2>
+          <p class="f m-0 fw-normal">{{ $t("Fact9P") }}</p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard10.png" alt="" /></i>
-          <h2>240</h2>
-          <p class="f m-0 fw-normal">мест в доме студента (общежитие)</p>
+          <h2>{{ $t("Fact10H") }}</h2>
+          <p class="f m-0 fw-normal">{{ $t("Fact10P") }}</p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
           <i class="bi"><img src="../assets/factsCard11.png" alt="" /></i>
-          <h2>3</h2>
+          <h2>{{ $t("Fact11H") }}</h2>
           <p class="f m-0 fw-normal">
-            основные направления обучения: Pedagogy, IT, Accounting
+            {{ $t("Fact11P") }}
           </p>
         </div>
       </div>
@@ -105,8 +102,4 @@ export default {};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.f {
-  font-size: 13px;
-}
-</style>
+<style scoped></style>

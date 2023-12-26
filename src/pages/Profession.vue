@@ -11,6 +11,9 @@ export default {
 </script>
 
 <template>
-  <Hero2 title="Специальности" podtitle="Главная / Специальности" />
+  <Hero2
+    :title="$t('ProfessionPage.title')"
+    :podtitle="$t('ProfessionPage.podtitle')"
+  />
   <Profession />
 </template>

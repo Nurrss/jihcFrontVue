@@ -11,6 +11,6 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Общежитие" podtitle="Главная / Общежитие" />
+  <hero2 :title="$t('DorPage.title')" :podtitle="$t('DorPage.podtitle')" />
   <Dormitory />
 </template>

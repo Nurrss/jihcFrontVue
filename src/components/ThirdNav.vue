@@ -30,18 +30,18 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Колледж
+              {{ $t("ThirdNavNavItem1") }}
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link to="/history" exact class="dropdown-item" href="#"
-                  >История колледжа</router-link
-                >
+                <router-link to="/history" exact class="dropdown-item" href="#">
+                  {{ $t("ThirdNavNavItem1Li1") }}
+                </router-link>
               </li>
               <li>
-                <router-link to="/facts" exact class="dropdown-item" href="#"
-                  >Важные факты</router-link
-                >
+                <router-link to="/facts" exact class="dropdown-item" href="#">
+                  {{ $t("ThirdNavNavItem1Li2") }}
+                </router-link>
               </li>
               <li>
                 <router-link
@@ -49,28 +49,33 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Документы</router-link
                 >
+                  {{ $t("ThirdNavNavItem1Li3") }}
+                </router-link>
               </li>
               <li>
-                <router-link to="/comand" exact class="dropdown-item" href="#"
-                  >Команда</router-link
+                <router-link
+                  to="/comand"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem1Li4") }}</router-link
                 >
               </li>
 
-              <li>
-                <router-link to="/board" exact class="dropdown-item" href="#"
-                  >Попечительский совет</router-link
-                >
-              </li>
               <li>
                 <router-link
                   to="/structure"
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Структура колледжа</router-link
+                  >{{ $t("ThirdNavNavItem1Li5") }}</router-link
                 >
+              </li>
+              <li>
+                <router-link to="/board" exact class="dropdown-item" href="#">{{
+                  $t("ThirdNavNavItem1Li6")
+                }}</router-link>
               </li>
             </ul>
           </li>
@@ -82,7 +87,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Поступление
+              {{ $t("ThirdNavNavItem2") }}
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -91,7 +96,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Специальности</router-link
+                  >{{ $t("ThirdNavNavItem2Li1") }}</router-link
                 >
               </li>
               <li>
@@ -100,7 +105,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Подача документов</router-link
+                  >{{ $t("ThirdNavNavItem2Li2") }}</router-link
                 >
               </li>
               <li>
@@ -109,7 +114,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Перевод</router-link
+                  >{{ $t("ThirdNavNavItem2Li3") }}</router-link
                 >
               </li>
             </ul>
@@ -122,14 +127,13 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Специальности
+              {{ $t("ThirdNavNavItem3") }}
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link to="/it" exact class="dropdown-item" href="#"
-                  >Информационные системы <br />
-                  и программное обеспечение</router-link
-                >
+                <router-link to="/it" exact class="dropdown-item" href="#">{{
+                  $t("ThirdNavNavItem3Li1")
+                }}</router-link>
               </li>
               <li>
                 <router-link
@@ -137,7 +141,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Бухгалтерcкий учет</router-link
+                  >{{ $t("ThirdNavNavItem3Li2") }}</router-link
                 >
               </li>
               <li>
@@ -146,7 +150,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Педагогика - математика</router-link
+                  >{{ $t("ThirdNavNavItem3Li3") }}</router-link
                 >
               </li>
             </ul>
@@ -159,7 +163,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Инфраструктура
+              {{ $t("ThirdNavNavItem4") }}
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -168,12 +172,16 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Лаборатории</router-link
+                  >{{ $t("ThirdNavNavItem4Li1") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/corpus" exact class="dropdown-item" href="#"
-                  >Корпус</router-link
+                <router-link
+                  to="/corpus"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem4Li2") }}</router-link
                 >
               </li>
               <li>
@@ -182,7 +190,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Общежитие</router-link
+                  >{{ $t("ThirdNavNavItem4Li3") }}</router-link
                 >
               </li>
               <li>
@@ -191,12 +199,16 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Спортзал + поле</router-link
+                  >{{ $t("ThirdNavNavItem4Li4") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/canteen" exact class="dropdown-item" href="#"
-                  >Столовая</router-link
+                <router-link
+                  to="/canteen"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem4Li5") }}</router-link
                 >
               </li>
             </ul>
@@ -209,7 +221,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Студентам
+              {{ $t("ThirdNavNavItem5") }}
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -218,22 +230,34 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Академический календарь</router-link
+                  >{{ $t("ThirdNavNavItem5Li1") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/edupage" exact class="dropdown-item" href="#"
-                  >Электронный журнал - Edupage</router-link
+                <router-link
+                  to="/edupage"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem5Li2") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/practica" exact class="dropdown-item" href="#"
-                  >Практика</router-link
+                <router-link
+                  to="/practica"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem5Li3") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/Career" exact class="dropdown-item" href="#"
-                  >Карьера</router-link
+                <router-link
+                  to="/Career"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem5Li4") }}</router-link
                 >
               </li>
               <li>
@@ -242,13 +266,13 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Проф. ориентация</router-link
+                  >{{ $t("ThirdNavNavItem5Li5") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/comit" exact class="dropdown-item" href="#"
-                  >Комитеты</router-link
-                >
+                <router-link to="/comit" exact class="dropdown-item" href="#">{{
+                  $t("ThirdNavNavItem5Li6")
+                }}</router-link>
               </li>
               <li>
                 <router-link
@@ -256,7 +280,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Студенческая жизнь</router-link
+                  >{{ $t("ThirdNavNavItem5Li7") }}</router-link
                 >
               </li>
               <li>
@@ -265,7 +289,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Дом студента</router-link
+                  >{{ $t("ThirdNavNavItem5Li8") }}</router-link
                 >
               </li>
             </ul>
@@ -278,7 +302,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Родителям
+              {{ $t("ThirdNavNavItem6") }}
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -287,12 +311,16 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Род. комитет</router-link
+                  >{{ $t("ThirdNavNavItem6Li1") }}</router-link
                 >
               </li>
               <li>
-                <router-link to="/contact" exact class="dropdown-item" href="#"
-                  >Контакты с колледжем</router-link
+                <router-link
+                  to="/contact"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem6Li2") }}</router-link
                 >
               </li>
               <li>
@@ -301,7 +329,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Связь с учителем</router-link
+                  >{{ $t("ThirdNavNavItem6Li3") }}</router-link
                 >
               </li>
             </ul>
@@ -314,12 +342,16 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Работадателям
+              {{ $t("ThirdNavNavItem7") }}
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link to="/partner" exact class="dropdown-item" href="#"
-                  >Партнеры</router-link
+                <router-link
+                  to="/partner"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem7Li1") }}</router-link
                 >
               </li>
               <li>
@@ -328,7 +360,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Подготовка специалистов</router-link
+                  >{{ $t("ThirdNavNavItem7Li2") }}</router-link
                 >
               </li>
             </ul>
@@ -341,7 +373,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Выпускникам
+              {{ $t("ThirdNavNavItem8") }}
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -350,7 +382,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Ассоциация</router-link
+                  >{{ $t("ThirdNavNavItem8Li1") }}</router-link
                 >
               </li>
               <li>
@@ -359,7 +391,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Спонсорство</router-link
+                  >{{ $t("ThirdNavNavItem8Li2") }}</router-link
                 >
               </li>
             </ul>
@@ -372,7 +404,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              Календарь
+              {{ $t("ThirdNavNavItem9") }}
             </a>
             <ul class="dropdown-menu">
               <li>
@@ -381,7 +413,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >Google Calendar</router-link
+                  >{{ $t("ThirdNavNavItem9Li1") }}</router-link
                 >
               </li>
             </ul>

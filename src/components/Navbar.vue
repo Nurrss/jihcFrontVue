@@ -40,7 +40,7 @@
         </ul>
         <a class="navbar-brand" href="#">
           <i class="bi bi-geo-alt-fill"></i>
-          080003 город Тараз, улица Пушкина, 154
+          {{ $t("NavbarP1") }}
         </a>
       </div>
     </div>

@@ -11,6 +11,6 @@ export default {
 };
 </script>
 <template>
-  <hero2 title="Ассоциация" podtitle="Главная / Ассоциация" />
+  <hero2 :title="$t('AssocPage.title')" :podtitle="$t('AssocPage.podtitle')" />
   <Association />
 </template>

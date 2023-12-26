@@ -5,8 +5,8 @@
         class="px-5 py-5 container size text-center text-lg-start d-flex align-items-center"
       >
         <h1 class="display-5 fw-bold lh-2 text-light align-bottom">
-          Качественное образование<br />
-          Сознательное воспитание
+          {{ $t("HeroH1P1") }}<br />
+          {{ $t("HeroH1P2") }}
         </h1>
       </div>
     </div>
