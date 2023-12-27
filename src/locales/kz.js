@@ -1,4 +1,10 @@
 export default {
+  // ComandPage Texts
+  ComandPage: {
+    title: "Команда",
+    podtitle: "Главная / Студенческая жизнь",
+  },
+  NewsH: "Жаңалықтар",
   // AsocPage Texts
   LifePage: {
     title: "Студенттік өмір",

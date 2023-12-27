@@ -64,15 +64,6 @@
               </li>
 
               <li>
-                <router-link
-                  to="/structure"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem1Li5") }}</router-link
-                >
-              </li>
-              <li>
                 <router-link to="/board" exact class="dropdown-item" href="#">{{
                   $t("ThirdNavNavItem1Li6")
                 }}</router-link>
