@@ -31,7 +31,6 @@ import PreperatoinProf from "../pages/PreperatoinProf.vue";
 import Profession from "../pages/Profession.vue";
 import Sponsorship from "../pages/Sponsorship.vue";
 import Sporthall from "../pages/Sporthall.vue";
-import Structure from "../pages/Structure.vue";
 import StudentLife from "../pages/StudentLife.vue";
 import SupplyDocuments from "../pages/SupplyDocuments.vue";
 import Translate from "../pages/Translate.vue";
@@ -162,10 +161,7 @@ const routes = [
     path: "/sporthall",
     component: Sporthall,
   },
-  {
-    path: "/structure",
-    component: Structure,
-  },
+
   {
     path: "/studentlife",
     component: StudentLife,

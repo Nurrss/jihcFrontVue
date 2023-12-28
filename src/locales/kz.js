@@ -1,9 +1,21 @@
 export default {
+  // DocumentPage Texts
+  DocumentPage: {
+    title: "Лицензиялар және аккредиттеу",
+    podtitle: "Басты бет / Лицензиялар және аккредиттеу",
+  },
+  // BoardPage Texts
+  BoardPage: {
+    title: "Қамқоршылар кеңесі",
+    podtitle: "Басты бет / Қамқоршылар кеңесі",
+  },
+  BoardH1: "Қамқоршылар кеңесі",
   // ComandPage Texts
   ComandPage: {
-    title: "Команда",
-    podtitle: "Главная / Студенческая жизнь",
+    title: "Ұйым",
+    podtitle: "Басты бет / Ұйым",
   },
+  ComandH1: "Біздің Ұйым",
   NewsH: "Жаңалықтар",
   // AsocPage Texts
   LifePage: {

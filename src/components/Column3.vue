@@ -1,10 +1,10 @@
 <template>
   <div class="container my-5 d-flex justify-content-center">
     <div class="size text-center">
-      <h1 class="m-5" style="color: #0077ff">
+      <h2 class="m-5 text-center" style="color: #0077ff">
         {{ $t("Column3H1") }}
         <hr />
-      </h1>
+      </h2>
 
       <div class="row align-items-center gap-5">
         <div

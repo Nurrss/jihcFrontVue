@@ -9,7 +9,7 @@
     <!-- Navbar for smaller screens (collapsed) -->
     <div class="d-lg-none">
       <nav
-        class="navbar navbar-expand-lg py-2"
+        class="navbar navbar-expand-lg py-2 sticky-top"
         aria-label="Twelfth navbar example"
       >
         <div class="container-fluid container">
@@ -479,6 +479,7 @@ export default {
     SecondNav,
     ThirdNav,
   },
+  methods: {},
   // Component logic goes here
 };
 </script>

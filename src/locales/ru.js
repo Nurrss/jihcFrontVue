@@ -4,6 +4,8 @@ export default {
     title: "Команда",
     podtitle: "Главная / Студенческая жизнь",
   },
+  ComandH1: "Наша команда",
+
   NewsH: "Новости",
 
   // AsocPage Texts

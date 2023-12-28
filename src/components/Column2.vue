@@ -1,7 +1,7 @@
 <template>
   <div class="container my-5 justify-content-center">
     <div class="text-center">
-      <h1 class="m-5" style="color: #0077ff">
+      <h1 class="m-5 text-center" style="color: #0077ff">
         {{ $t("Column2H1") }}
 
         <hr />
@@ -13,14 +13,14 @@
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/col2card1.png" alt="" /></i>
-          <p class="m-0 text-light fw-normal">{{ $t("Column2P1") }}</p>
+          <p class="m-0 text-light">{{ $t("Column2P1") }}</p>
         </div>
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/col2card2.png" alt="" /></i>
-          <p class="m-0 text-light fw-normal">
+          <p class="m-0 text-light">
             {{ $t("Column2P2") }}
           </p>
         </div>
@@ -29,7 +29,7 @@
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/col2card3.png" alt="" /></i>
-          <p class="m-0 text-light fw-normal text-light">
+          <p class="m-0 text-light text-light">
             {{ $t("Column2P3") }}
           </p>
         </div>
@@ -43,8 +43,4 @@ export default {};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-.size {
-  max-width: 1142px;
-}
-</style>
+<style scoped></style>

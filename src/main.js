@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import { createI18n } from "vue-i18n";
 import ru from "./locales/ru";
 import kz from "./locales/kz";
+// main.js
 
 // Import the router configuration
 import router from "./router/index";
