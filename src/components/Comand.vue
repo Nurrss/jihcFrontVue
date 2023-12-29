@@ -35,7 +35,7 @@ export default {
     return {
       cards: [
         {
-          imgPath: require("../assets/jihc/comand/AlisherAgai.jpg"),
+          imgPath: require("../assets/jihc/comand/AlisherAgai.avif"),
           jobTitle: "Директор",
           name: "Алишер Бодаубеков",
           email: "alisher.bodaubekov@jihc.kz",
@@ -137,7 +137,8 @@ export default {
           email: "zhansaya.tazhibayeva@jihc.kz",
         },
         {
-          imgPath: require("../assets/jihc/comand/MereyAgay.jpg"),
+          imgPath:
+            "https://drive.google.com/uc?id=1wP1tfgBRad9vM-lp5y4iyBHZBgbMrhkI",
           jobTitle: "Учитель ",
           name: "Мерей Мейрам",
           email: "merey.meiram@jihc.kz",
