@@ -28,6 +28,8 @@ npm run lint
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-Website [Website](src/assets/web1.png).
-Website [Website](src/assets/web2.png).
-Website [Website](src/assets/web3.png).
+# WEbsite
+
+![Website](src/assets/web1.png)
+![Website](src/assets/web2.png)
+![Website](src/assets/web3.png)
