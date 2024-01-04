@@ -60,24 +60,23 @@ export default {
       cards: [
         [
           {
-            imgPath: require("../assets/heroes-bg.png"),
-            newsTitle: "Special title treatment",
+            imgPath:
+              "https://drive.google.com/uc?id=1wP1tfgBRad9vM-lp5y4iyBHZBgbMrhkI",
+            newsTitle: "Merey Agay",
             discription:
               "With supporting text below as a natural lead-in to additional content.",
             time: "2023.12.27",
           },
           {
-            imgPath:
-              "https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d",
-            newsTitle: "Special title treatment",
+            imgPath: require("../assets/jihc/comand/Тоқтасын Олжас.jpg"),
+            newsTitle: "Olzhas Agay",
             discription:
               "With supporting text below as a natural lead-in to additional content.",
             time: "2023.12.27",
           },
           {
-            imgPath:
-              "https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d",
-            newsTitle: "Special title treatment",
+            imgPath: require("../assets/jihc/comand/Жүнісов Əлишер .jpg"),
+            newsTitle: "Alisher Agay",
             discription:
               "With supporting text below as a natural lead-in to additional content.",
             time: "2023.12.27",
