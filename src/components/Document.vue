@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="container p-5 mb-4 rounded-3">
     <p class="p-0 m-0">Стратегический план развития:</p>
     <a
       href=" https://drive.google.com/file/d/1O1eSO0YejLQcWk36qJ7gNIpB2TXJo8Hk/view?usp=sharing"

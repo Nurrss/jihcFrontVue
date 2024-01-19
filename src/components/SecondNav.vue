@@ -98,6 +98,12 @@ export default {
       currentLangName: this.getLangName(this.$i18n.locale),
     };
   },
+  mounted() {
+    // Set the default language to 'ru'
+    this.$i18n.locale = "ru";
+    this.currentLangName = this.getLangName("ru");
+    this.$root.$emit("changeLocale", "ru");
+  },
   methods: {
     changeLanguage(locale, langName) {
       this.$i18n.locale = locale;
@@ -105,14 +111,12 @@ export default {
       this.$root.$emit("changeLocale", locale);
     },
     getLangName(locale) {
-      // Add logic to get the language name based on the locale
       if (locale === "kz") {
         return "Қаз";
       } else if (locale === "ru") {
         return "Рус";
       }
-      // Add more languages as needed
-      return locale; // Fallback to the locale if the name is not defined
+      return locale;
     },
   },
 };

@@ -98,16 +98,15 @@
           </li>
         </ul>
       </div>
-
-      <img
-        src="../assets/Accounting.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
-      />
+      <div
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
+      >
+        <img src="../assets/Accounting.png" alt="" class="img-fluid" />
+      </div>
     </div>
   </section>
 
-  <div class="container my-5 py-5 d-flex justify-content-center">
+  <div class="container my-5 d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
         {{ $t("AccountingInfoH2") }}
