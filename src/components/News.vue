@@ -60,22 +60,21 @@ export default {
       cards: [
         [
           {
-            imgPath:
-              "https://drive.google.com/uc?id=1wP1tfgBRad9vM-lp5y4iyBHZBgbMrhkI",
+            imgPath: require("../assets/jihc/comand/MereyAgay.avif"),
             newsTitle: "Merey Agay",
             discription:
               "With supporting text below as a natural lead-in to additional content.",
             time: "2023.12.27",
           },
           {
-            imgPath: require("../assets/jihc/comand/Тоқтасын Олжас.jpg"),
+            imgPath: require("../assets/jihc/comand/Тоқтасын-Олжас.avif"),
             newsTitle: "Olzhas Agay",
             discription:
               "With supporting text below as a natural lead-in to additional content.",
             time: "2023.12.27",
           },
           {
-            imgPath: require("../assets/jihc/comand/Жүнісов Əлишер .jpg"),
+            imgPath: require("../assets/jihc/comand/Жүнісов Əлишер .avif"),
             newsTitle: "Alisher Agay",
             discription:
               "With supporting text below as a natural lead-in to additional content.",

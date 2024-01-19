@@ -1,5 +1,5 @@
 <template>
-  <div class="container p-5 mb-4 bg-body-tertiary rounded-3">
+  <div class="container p-5 mb-4 rounded-3">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold mb-5">
         {{ $t("JumbotronElemH1") }}

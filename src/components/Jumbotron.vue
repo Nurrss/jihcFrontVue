@@ -20,12 +20,11 @@
           {{ $t("JumbotronP1P3") }}
         </p>
       </div>
-
-      <img
-        src="../assets/Director.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
-      />
+      <div
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
+      >
+        <img src="../assets/Director.png" alt="" class="img-fluid" />
+      </div>
     </div>
   </section>
 </template>
@@ -35,4 +34,9 @@ export default {};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.i {
+  max-width: 500px;
+  max-height: 500px;
+}
+</style>

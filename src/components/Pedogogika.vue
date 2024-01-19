@@ -70,12 +70,11 @@
           </li>
         </ul>
       </div>
-
-      <img
-        src="../assets/It.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
-      />
+      <div
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
+      >
+        <img src="../assets/It.png" alt="" class="img-fluid" />
+      </div>
     </div>
   </section>
 
