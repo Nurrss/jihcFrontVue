@@ -1,6 +1,6 @@
 <template>
   <section id="info " class="my-5 container">
-    <div class="row">
+    <div class="row gap-3">
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
       >
@@ -16,7 +16,7 @@
       </div>
 
       <div
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-center d-flex"
       >
         <img src="../assets/edu.jpg" alt="" class="img-fluid" />
       </div>

@@ -1,55 +1,4 @@
 <template>
-  <!-- <div class="container mb-4 rounded-3">
-    <div class="container-fluid py-5">
-      <div class="mb-5">
-        <h1 class="display-5 fw-bold mb-5">{{ $t("ProfessionH1") }}</h1>
-        <p class="mb-3">
-          {{ $t("ProfessionP1") }}
-        </p>
-        <p class="mb-3">
-          {{ $t("ProfessionP2") }}
-        </p>
-
-        <h4 class="mb-3">{{ $t("ProfessionH2") }}</h4>
-        <li>{{ $t("ProfessionLi1") }}</li>
-        <li>{{ $t("ProfessionLi2") }}</li>
-        <li>{{ $t("ProfessionLi3") }}</li>
-        <li>{{ $t("ProfessionLi4") }}</li>
-
-        <button
-          type="button"
-          class="btn btn-primary float-end rounded-4 px-5 py-2"
-        >
-          {{ $t("ProfessionBtn1") }}
-        </button>
-        <p>{{ $t("ProfessionP3") }}</p>
-      </div>
-      <div>
-        <h1 class="display-5 fw-bold mb-5">{{ $t("ProfessionH3") }}</h1>
-        <p class="mb-3">
-          {{ $t("ProfessionP4") }}
-        </p>
-        <p class="mb-3">
-          {{ $t("ProfessionP5") }}
-        </p>
-
-        <h4 class="mb-3">{{ $t("ProfessionH4") }}</h4>
-        <li>{{ $t("ProfessionLi1") }}</li>
-        <li>{{ $t("ProfessionLi2") }}</li>
-        <li>{{ $t("ProfessionLi3") }}</li>
-        <li>{{ $t("ProfessionLi4") }}</li>
-
-        <button
-          type="button"
-          class="btn btn-primary float-end rounded-4 px-5 py-2"
-        >
-          {{ $t("ProfessionBtn1") }}
-        </button>
-        <p>{{ $t("ProfessionP6") }}</p>
-      </div>
-    </div>
-  </div> -->
-
   <div class="container py-5" id="featured-3">
     <h4 class="pb-2 fw-bold" style="color: #0077ff">
       ОБЩАЯ СТРУКТУРА ОБРАЗОВАНИЯ В КОЛЛЕДЖЕ
@@ -219,12 +168,14 @@
         </h6>
       </div>
       <div class="col-md-4">
-        <button
+        <router-link
+          to="/it"
+          exact
           class="btn btn-primary float-end rounded-4 px-5 py-2 mt-3"
-          style="background-color: #0077ff"
+          href="#"
+          @click="goToTop"
+          >Подробнее</router-link
         >
-          Подробнее
-        </button>
       </div>
     </div>
     <!-- #00805E -->
@@ -279,12 +230,14 @@
         </h6>
       </div>
       <div class="col-md-4">
-        <button
+        <router-link
+          to="/accounting"
+          exact
           class="btn btn-primary float-end rounded-4 px-5 py-2 mt-3"
-          style="background-color: #0077ff"
+          href="#"
+          @click="goToTop"
+          >Подробнее</router-link
         >
-          Подробнее
-        </button>
       </div>
     </div>
 
@@ -332,19 +285,31 @@
         </h6>
       </div>
       <div class="col-md-4">
-        <button
+        <router-link
+          to="/pedogogika"
+          exact
           class="btn btn-primary float-end rounded-4 px-5 py-2 mt-3"
-          style="background-color: #0077ff"
+          href="#"
+          @click="goToTop"
+          >Подробнее</router-link
         >
-          Подробнее
-        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    goToTop() {
+      // Scroll to the top of the page
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Add smooth scrolling effect
+      });
+    },
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

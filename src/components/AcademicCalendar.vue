@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-5">
+  <div class="container pt-5">
     <p>
       Принимая во внимание нужды участников учебного процесса и государственной
       образовательной программы, годовой календарный учебный график составлен
@@ -10,6 +10,7 @@
       здесь: (ссылка на академический календарь
       <a
         href="https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112"
+        class="link-item"
         >https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112</a
       >)
     </p>
@@ -23,4 +24,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.link-item {
+  display: block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+</style>

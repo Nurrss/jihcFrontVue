@@ -1,5 +1,5 @@
 <template>
-  <section id="info " class="my-5 py-5 container">
+  <section id="info " class="my-5 container">
     <div class="row">
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
@@ -93,14 +93,14 @@
         </ul>
       </div>
       <div
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex mt-5"
       >
         <img src="../assets/It.png" alt="" class="img-fluid" />
       </div>
     </div>
   </section>
 
-  <div class="container my-5 d-flex justify-content-center">
+  <div class="container d-flex justify-content-center">
     <div class="size text-center">
       <h1 class="m-5" style="color: #0077ff">
         {{ $t("ItH2") }}
