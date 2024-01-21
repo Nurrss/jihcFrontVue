@@ -1,33 +1,19 @@
 <template>
-  <section id="info " class="my-5 container">
-    <div class="row">
-      <div
-        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
-      >
-        <p class="">
-          {{ $t("AcademicCalendarInfoText") }}
-        </p>
-        <p>{{ $t("AcdemicCalendarP1") }}</p>
-        <li>
-          {{ $t("AcdemicCalendarLi1") }}
-        </li>
-        <li>
-          {{ $t("AcdemicCalendarLi2") }}
-        </li>
-        <li>{{ $t("AcdemicCalendarLi3") }}</li>
-        <li>{{ $t("AcdemicCalendarLi4") }}</li>
-        <p class="mt-3">
-          {{ $t("AcdemicCalendarP2") }}
-        </p>
-      </div>
-
-      <img
-        src="../assets/Director.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
-      />
-    </div>
-  </section>
+  <div class="container py-5">
+    <p>
+      Принимая во внимание нужды участников учебного процесса и государственной
+      образовательной программы, годовой календарный учебный график составлен
+      так, что учебный год будет начинаться 1 сентября и заканчиваться 28 июня.
+    </p>
+    <p>
+      Просмотреть детальный годовой календарь на 2023-2024 учебный год можно
+      здесь: (ссылка на академический календарь
+      <a
+        href="https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112"
+        >https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112</a
+      >)
+    </p>
+  </div>
 </template>
 
 <script>

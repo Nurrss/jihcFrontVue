@@ -325,36 +325,10 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle active"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              {{ $t("ThirdNavNavItem7") }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link
-                  to="/partner"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem7Li1") }}</router-link
-                >
-              </li>
-              <li>
-                <router-link
-                  to="/preperationprof"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem7Li2") }}</router-link
-                >
-              </li>
-            </ul>
+          <li>
+            <router-link to="/partner" exact class="nav-link active" href="#">{{
+              $t("ThirdNavNavItem7")
+            }}</router-link>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -387,27 +361,14 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle active"
+          <li>
+            <router-link
+              to="/googlecalendar"
+              exact
+              class="nav-link active"
               href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
+              >{{ $t("ThirdNavNavItem9") }}</router-link
             >
-              {{ $t("ThirdNavNavItem9") }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link
-                  to="/googlecalendar"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem9Li1") }}</router-link
-                >
-              </li>
-            </ul>
           </li>
         </ul>
       </div>

@@ -74,25 +74,19 @@ export default {
   height: 460px;
 }
 .crs-img-1 {
-  background: url("../assets/jihc/лаб/IMG_8237.JPG");
+  background: url("../assets/jihc/лаб/lab1.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-2 {
-  background: url("../assets/jihc/лаб//IMG_8238.JPG");
+  background: url("../assets/jihc/лаб//lab2.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-3 {
-  background: url("../assets/jihc/лаб/IMG_8239.JPG");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-4 {
-  background: url("../assets/jihc/лаб/IMG_8240.JPG");
+  background: url("../assets/jihc/лаб/lab3.avif");
   background-size: cover;
   background-position: center;
   width: 100%;

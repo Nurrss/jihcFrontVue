@@ -1,55 +1,28 @@
 <template>
-  <section id="info " class="my-5 container">
-    <div class="row">
-      <p class="mb-5 text-center">
-        {{ $t("LifeP1") }}
-      </p>
-      <div
-        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
-      >
-        <h1 style="color: #0077ff">{{ $t("LifeH1") }}</h1>
-        <hr />
-        <p class="">
-          {{ $t("LifeP2") }}
-        </p>
-      </div>
-
-      <img
-        src="../assets/studentlifecard1.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center mb-5"
-      />
-      <img
-        src="../assets/studentlifecard2.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center mb-5"
-      />
-      <div
-        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
-      >
-        <h1 style="color: #0077ff">{{ $t("LifeH2") }}</h1>
-        <hr />
-        <p class="">
-          {{ $t("LifeP3") }}
-        </p>
-      </div>
-      <div
-        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
-      >
-        <h1 style="color: #0077ff">{{ $t("LifeH3") }}</h1>
-        <hr />
-        <p class="">
-          {{ $t("LifeP4") }}
-        </p>
-      </div>
-
-      <img
-        src="../assets/studentlifecard1.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center mb-5"
-      />
-    </div>
-  </section>
+  <div class="container py-5">
+    <p>
+      Студенческая жизнь в нашем колледже ярко выражена разнообразием культурных
+      и спортивных мероприятий и четко направлена на соответствие системе
+      ценностно - ориентированному образованию - QUNDYLYK.
+    </p>
+    <p>
+      Ежегодные мероприятия и концерты создают позитивное и вдохновляющее
+      атмосферу, позволяя студентам полностью погрузиться в культурное
+      разнообразие и создает дружественную и энергичную обстановку в нашем
+      учебном заведении.
+    </p>
+    <p>
+      Кроме того, студенческие клубы и организации активно проводят
+      соревнования, способствующие развитию навыков лидерства и социальной
+      ответственности.
+    </p>
+    <p>
+      Координаторами студенческой жизни являются руководители комитетов по делам
+      молодежи
+    </p>
+    <p>Алишер Жунусов</p>
+    <p>Ажар Бейсембек</p>
+  </div>
 </template>
 
 <script>
