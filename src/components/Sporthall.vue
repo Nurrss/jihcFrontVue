@@ -9,7 +9,7 @@
         type="button"
         data-bs-target="#myCarousel"
         data-bs-slide-to="0"
-        class=""
+        class="active"
         aria-label="Slide 1"
       ></button>
       <button
@@ -19,19 +19,10 @@
         aria-label="Slide 2"
         class=""
       ></button>
-      <button
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-        class="active"
-        aria-current="true"
-      ></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item crs-img-1"></div>
+      <div class="carousel-item active crs-img-1"></div>
       <div class="carousel-item crs-img-2"></div>
-      <div class="carousel-item active crs-img-3"></div>
     </div>
     <button
       class="carousel-control-prev"
@@ -40,7 +31,6 @@
       data-bs-slide="prev"
     >
       <img src="../assets/button_prev.png" alt="" />
-
       <span class="visually-hidden">Previous</span>
     </button>
     <button
@@ -73,26 +63,15 @@ export default {
 .carousel-item {
   height: 460px;
 }
+
 .crs-img-1 {
-  background: url("../assets/jihc/спортзал/DSC00173.JPG");
+  background: url("../assets/jihc/спортзал/sport1.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-2 {
-  background: url("../assets/jihc/спортзал/DSC00175.JPG");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-3 {
-  background: url("../assets/jihc/спортзал/photo_2023-12-20_14-50-55.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-4 {
-  background: url("../assets/jihc/лаб/IMG_8240.JPG");
+  background: url("../assets/jihc/спортзал/sport2.avif");
   background-size: cover;
   background-position: center;
   width: 100%;

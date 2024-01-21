@@ -27,11 +27,29 @@
         class="active"
         aria-current="true"
       ></button>
+      <button
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide-to="3"
+        aria-label="Slide 4"
+        class="active"
+        aria-current="true"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide-to="4"
+        aria-label="Slide 5"
+        class="active"
+        aria-current="true"
+      ></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item crs-img-1"></div>
+      <div class="carousel-item active crs-img-1"></div>
       <div class="carousel-item crs-img-2"></div>
-      <div class="carousel-item active crs-img-3"></div>
+      <div class="carousel-item crs-img-3"></div>
+      <div class="carousel-item crs-img-4"></div>
+      <div class="carousel-item crs-img-5"></div>
     </div>
     <button
       class="carousel-control-prev"
@@ -40,7 +58,6 @@
       data-bs-slide="prev"
     >
       <img src="../assets/button_prev.png" alt="" />
-
       <span class="visually-hidden">Previous</span>
     </button>
     <button
@@ -73,20 +90,33 @@ export default {
 .carousel-item {
   height: 460px;
 }
+
 .crs-img-1 {
-  background: url("../assets/jihc/общежитие/IMG_8328\ \(2\).JPG");
+  background: url("../assets/jihc/общежитие/jata1.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-2 {
-  background: url("../assets/jihc/общежитие/IMG_8329\ \(2\).JPG");
+  background: url("../assets/jihc/общежитие/jata2.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-3 {
-  background: url("../assets/jihc/общежитие/IMG_8330\ \(2\).JPG");
+  background: url("../assets/jihc/общежитие/jata3.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-4 {
+  background: url("../assets/jihc/общежитие/jata4.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-5 {
+  background: url("../assets/jihc/общежитие/jata5.avif");
   background-size: cover;
   background-position: center;
   width: 100%;

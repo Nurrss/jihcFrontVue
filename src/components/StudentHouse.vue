@@ -1,27 +1,22 @@
 <template>
-  <section id="info " class="my-5 container">
-    <div class="row">
-      <div
-        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
+  <div class="container py-5">
+    <p>
+      Колледж предоставляет каждому студенту возможность подать заявку на
+      заселение в Дом студента (общежитие) на территории кампуса.
+    </p>
+    <p>
+      Проживание в общежитии строго рекомендуется всем студентам в связи с очень
+      высокой образовательной нагрузкой и сложностью обучения, важно знать что
+      для студентов 1 курса проживание в Доме студента обязательно
+    </p>
+    <p>
+      Студенты обязаны соблюдать правила внутреннего распорядка Дома студента.
+      <a
+        href="https://docs.google.com/document/d/1f9mbF-p4tFwo33TbIL1c2Xront0F4Twz-KIqJo9q0F0/edit"
+        >https://docs.google.com/document/d/1f9mbF-p4tFwo33TbIL1c2Xront0F4Twz-KIqJo9q0F0/edit</a
       >
-        <p class="">
-          Edupage - это неотъемлемый инструмент для современных колледжей и школ
-          обеспечивающий эффективное взаимодействие между учителями, студентами
-          и родителями. Этот приложение облегчает доступ к актуальной информации
-          о расписании занятий, домашних заданиях, и обновлениях школьной жизни
-          в режиме реального времени.
-        </p>
-        <p>Ссылка на электронный журнал:</p>
-        <a href="#">https://login1.edupage.org/</a>
-      </div>
-
-      <img
-        src="../assets/Director.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
-      />
-    </div>
-  </section>
+    </p>
+  </div>
 </template>
 
 <script>

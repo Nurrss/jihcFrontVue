@@ -1,25 +1,19 @@
 <script>
-import Hero from "../components/Hero.vue";
-import Column from "../components/Column.vue";
-import Jumbotron from "../components/Jumbotron.vue";
-import Column2 from "../components/Column2.vue";
-import Column3 from "../components/Column3.vue";
+import Hero2 from "../components/Hero2.vue";
+import contact from "../components/contact.vue";
 
 export default {
   name: "App",
   components: {
-    Hero,
-    Column,
-    Jumbotron,
-    Column2,
-    Column3,
+    Hero2,
+    contact,
   },
 };
 </script>
 <template>
-  <hero />
-  <Column />
-  <jumbotron />
-  <column2 />
-  <column3 />
+  <hero2
+    title="Взаимодействие с колледжем"
+    podtitle="Главная / Взаимодействие с колледжем"
+  />
+  <contact />
 </template>

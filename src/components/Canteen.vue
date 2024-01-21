@@ -74,19 +74,19 @@ export default {
   height: 460px;
 }
 .crs-img-1 {
-  background: url("../assets/jihc/столовая/IMG_8231.JPG");
+  background: url("../assets/jihc/столовая/stolovaya1.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-2 {
-  background: url("../assets/jihc/столовая/IMG_8232.JPG");
+  background: url("../assets/jihc/столовая/stolovaya2.avif");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 .crs-img-3 {
-  background: url("../assets/jihc/столовая/IMG_8233.JPG");
+  background: url("../assets/jihc/столовая/stolovaya3.avif");
   background-size: cover;
   background-position: center;
   width: 100%;

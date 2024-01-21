@@ -15,11 +15,11 @@
         <a href="#">https://login1.edupage.org/</a>
       </div>
 
-      <img
-        src="../assets/Director.png"
-        alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
-      />
+      <div
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
+      >
+        <img src="../assets/edu.jpg" alt="" class="img-fluid" />
+      </div>
     </div>
   </section>
 </template>
