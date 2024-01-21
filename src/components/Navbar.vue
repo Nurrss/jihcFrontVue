@@ -18,27 +18,32 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-disabled="true"
+            <a
+              class="nav-link active"
+              aria-disabled="true"
+              href="https://www.instagram.com/jihc.kz/"
               ><i class="bi bi-instagram"></i
             ></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-disabled="true"
+            <a
+              class="nav-link active"
+              aria-disabled="true"
+              href="https://www.youtube.com/@jihctv2095"
               ><i class="bi bi-youtube"></i
             ></a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link active" aria-disabled="true"
-              ><i class="bi bi-telegram"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-disabled="true"
+            <a
+              class="nav-link active"
+              aria-disabled="true"
+              href="https://www.facebook.com/jihc_kz/"
               ><i class="bi bi-facebook"></i
             ></a>
           </li>
         </ul>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://go.2gis.com/vda30k">
           <i class="bi bi-geo-alt-fill"></i>
           {{ $t("NavbarP1") }}
         </a>

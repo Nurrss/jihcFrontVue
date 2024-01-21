@@ -363,36 +363,14 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle active"
+              <li>
+                <router-link
+                  to="/partner"
+                  exact
+                  class="nav-link active"
                   href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  >{{ $t("ThirdNavNavItem7") }}</router-link
                 >
-                  Работадателям
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <router-link
-                      to="/partner"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      >Партнеры</router-link
-                    >
-                  </li>
-                  <li>
-                    <router-link
-                      to="/preperationprof"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      >Подготовка специалистов</router-link
-                    >
-                  </li>
-                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -425,27 +403,14 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle active"
+              <li>
+                <router-link
+                  to="/googlecalendar"
+                  exact
+                  class="nav-link active"
                   href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  >{{ $t("ThirdNavNavItem9") }}</router-link
                 >
-                  Календарь
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <router-link
-                      to="/googlecalendar"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      >Google Calendar</router-link
-                    >
-                  </li>
-                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a
