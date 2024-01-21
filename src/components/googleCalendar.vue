@@ -6,8 +6,8 @@
     </p>
 
     <iframe
-      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FAlmaty&showTitle=0&showPrint=0&showTabs=1&showCalendars=1&showTz=0&src=bnVycnMuc2Vya3VsQGdtYWlsLmNvbQ&src=MjQ5NTlkNDU5NzA4MTI5ODU1MjA5ZTk2NDhjM2QzMTM4YWU4MGY5OWJiY2U0ZmFjZTZmOWNhZGZmNTM2ZTA4YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=cnUua3ojaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%239E69AF&color=%230B8043"
-      style="border-width: 0"
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FAlmaty&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=NWJlNjViNDQ0YWYxM2YwZDdlOTVjMmE2N2FlM2JmZTE2NWI2NWE1MjI0MTNmMmY2OTMzMWI3NjcyNjBiM2U1NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
+      style="border: 0"
       width="1200"
       height="600"
       frameborder="0"
