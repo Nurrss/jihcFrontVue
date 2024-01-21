@@ -17,18 +17,30 @@
       под нужды партнеров.
     </p>
     <p>На данный момент колледж тесно сотрудничает со следующими партнерами</p>
-    <div class="py-3 d-flex gap-4">
-      <img
-        src="../assets/educon.png
-      "
-        class="img-fluid"
-        alt=""
-      />
-      <img src="../assets/125.png" class="img-fluid" alt="" />
-      <img src="../assets/ktl.png" class="img-fluid" alt="" />
-      <img src="../assets/trurtwise.png" class="img-fluid" alt="" />
-      <img src="../assets/tgs.png" class="img-fluid" alt="" />
-      <img src="../assets/sdu.png" class="img-fluid" alt="" />
+
+    <div class="album py-5">
+      <div class="container">
+        <div class="row g-1">
+          <div class="col">
+            <img src="../assets/educon.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/125.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/ktl.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/trurtwise.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/tgs.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col">
+            <img src="../assets/sdu.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
 
     <p>
