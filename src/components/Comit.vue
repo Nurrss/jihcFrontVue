@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-5">
+  <div class="container pt-5">
     <h5 class="fw-bold">Комитет по академическому качеству</h5>
     <p>
       Комитет по академическому качеству является коллегиальным органом по

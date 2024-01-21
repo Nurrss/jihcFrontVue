@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-5">
+  <div class="container pt-5">
     <p>
       В колледже действует центр профессиональной ориентации и планирования
       карьеры

@@ -1,5 +1,5 @@
 <template>
-  <section id="info " class="my-5 container">
+  <section id="info " class="mt-5 container">
     <div class="row">
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
@@ -86,12 +86,12 @@
       <img
         src="../assets/studentlifecard1.png"
         alt=""
-        class="col-lg-6 col-md-6 col-sm-6 align-self-center"
+        class="col-lg-6 col-md-6 col-sm-6 align-self-center mt-4"
       />
     </div>
-    <div class="row container mb-5 py-5 d-flex justify-content-center">
+    <div class="row container mb-5 d-flex justify-content-center">
       <div class="size text-center">
-        <h1 class="m-5" style="color: #0077ff">
+        <h1 class="mt-5" style="color: #0077ff">
           {{ $t("AsoocH2") }}
           <hr />
         </h1>
@@ -105,59 +105,14 @@
         class="container carousel slide mt-5"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="0"
-            class=""
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-            class=""
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            class="active"
-            aria-current="true"
-          ></button>
-        </div>
         <div class="carousel-inner">
-          <div class="carousel-item crs-img-11"></div>
-          <div class="carousel-item crs-img-12"></div>
-          <div class="carousel-item active crs-img-13"></div>
+          <div class="carousel-item active crs-img-11"></div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <img src="../assets/button_prev.png" alt="" />
-
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <img src="../assets/button_next.png" alt="" />
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-    <div class="row container mb-5 py-5 d-flex justify-content-center">
+    <div class="row container mb-5 d-flex justify-content-center">
       <div class="size text-center">
-        <h1 class="m-5" style="color: #0077ff">
+        <h1 class="" style="color: #0077ff">
           {{ $t("AsoocH3") }}
           <hr />
         </h1>
@@ -171,59 +126,14 @@
         class="container carousel slide mt-5"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="0"
-            class=""
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-            class=""
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            class="active"
-            aria-current="true"
-          ></button>
-        </div>
         <div class="carousel-inner">
-          <div class="carousel-item crs-img-21"></div>
-          <div class="carousel-item crs-img-22"></div>
-          <div class="carousel-item active crs-img-23"></div>
+          <div class="carousel-item active crs-img-21"></div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <img src="../assets/button_prev.png" alt="" />
-
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <img src="../assets/button_next.png" alt="" />
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-    <div class="row container mb-5 py-5 d-flex justify-content-center">
+    <div class="row container mb-5 d-flex justify-content-center">
       <div class="size text-center">
-        <h1 class="m-5" style="color: #0077ff">
+        <h1 class="" style="color: #0077ff">
           {{ $t("AsoocH4") }}
           <hr />
         </h1>
@@ -237,54 +147,9 @@
         class="container carousel slide mt-5"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="0"
-            class=""
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-            class=""
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            class="active"
-            aria-current="true"
-          ></button>
-        </div>
         <div class="carousel-inner">
-          <div class="carousel-item crs-img-31"></div>
-          <div class="carousel-item crs-img-32"></div>
-          <div class="carousel-item active crs-img-33"></div>
+          <div class="carousel-item active crs-img-31"></div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <img src="../assets/button_prev.png" alt="" />
-
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <img src="../assets/button_next.png" alt="" />
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
   </section>

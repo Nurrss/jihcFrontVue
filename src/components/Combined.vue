@@ -31,7 +31,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-md-center"
+            class="collapse navbar-collapse justify-content-md-center navbargo"
             id="navbarsExample10"
           >
             <ul class="navbar-nav">
@@ -52,6 +52,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >История колледжа</router-link
                     >
                   </li>
@@ -61,6 +62,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Важные факты</router-link
                     >
                   </li>
@@ -70,6 +72,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Документы</router-link
                     >
                   </li>
@@ -79,6 +82,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Команда</router-link
                     >
                   </li>
@@ -89,16 +93,8 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Попечительский совет</router-link
-                    >
-                  </li>
-                  <li>
-                    <router-link
-                      to="/structure"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      >Структура колледжа</router-link
                     >
                   </li>
                 </ul>
@@ -120,6 +116,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Специальности</router-link
                     >
                   </li>
@@ -129,6 +126,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Подача документов</router-link
                     >
                   </li>
@@ -138,6 +136,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Перевод</router-link
                     >
                   </li>
@@ -155,7 +154,12 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <router-link to="/it" exact class="dropdown-item" href="#"
+                    <router-link
+                      to="/it"
+                      exact
+                      class="dropdown-item"
+                      href="#"
+                      @click="closeNavbar"
                       >Информационные системы <br />
                       и программное обеспечение</router-link
                     >
@@ -166,6 +170,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Бухгалтерcкий учет</router-link
                     >
                   </li>
@@ -175,6 +180,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Педагогика - математика</router-link
                     >
                   </li>
@@ -197,6 +203,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Лаборатории</router-link
                     >
                   </li>
@@ -206,6 +213,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Корпус</router-link
                     >
                   </li>
@@ -215,6 +223,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Общежитие</router-link
                     >
                   </li>
@@ -224,6 +233,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Спортзал + поле</router-link
                     >
                   </li>
@@ -233,6 +243,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Столовая</router-link
                     >
                   </li>
@@ -255,6 +266,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Академический календарь</router-link
                     >
                   </li>
@@ -264,6 +276,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Электронный журнал - Edupage</router-link
                     >
                   </li>
@@ -273,6 +286,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Практика</router-link
                     >
                   </li>
@@ -282,6 +296,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Карьера</router-link
                     >
                   </li>
@@ -291,6 +306,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Проф. ориентация</router-link
                     >
                   </li>
@@ -300,6 +316,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Комитеты</router-link
                     >
                   </li>
@@ -309,6 +326,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Студенческая жизнь</router-link
                     >
                   </li>
@@ -318,6 +336,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Дом студента</router-link
                     >
                   </li>
@@ -340,6 +359,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Род. комитет</router-link
                     >
                   </li>
@@ -349,6 +369,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Контакты с колледжем</router-link
                     >
                   </li>
@@ -358,6 +379,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Связь с учителем</router-link
                     >
                   </li>
@@ -369,6 +391,7 @@
                   exact
                   class="nav-link active"
                   href="#"
+                  @click="closeNavbar"
                   >{{ $t("ThirdNavNavItem7") }}</router-link
                 >
               </li>
@@ -389,6 +412,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Ассоциация</router-link
                     >
                   </li>
@@ -398,6 +422,7 @@
                       exact
                       class="dropdown-item"
                       href="#"
+                      @click="closeNavbar"
                       >Спонсорство</router-link
                     >
                   </li>
@@ -409,22 +434,39 @@
                   exact
                   class="nav-link active"
                   href="#"
+                  @click="closeNavbar"
                   >{{ $t("ThirdNavNavItem9") }}</router-link
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle active"
+                  style="display: list-item; align-items: center"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  id="lang"
                 >
-                  Рус
+                  {{ currentLangName }}
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Каз</a></li>
-                  <li><a class="dropdown-item" href="#">Рус</a></li>
+                  <li>
+                    <button
+                      class="dropdown-item"
+                      @click="handleLanguageChange('kz', 'Қаз')"
+                    >
+                      Қаз
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      class="dropdown-item"
+                      @click="handleLanguageChange('ru', 'Рус')"
+                    >
+                      Рус
+                    </button>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -444,7 +486,47 @@ export default {
     SecondNav,
     ThirdNav,
   },
-  methods: {},
+  methods: {
+    handleLanguageChange(locale, langName) {
+      this.closeNavbar();
+      this.changeLanguage(locale, langName);
+    },
+    closeNavbar() {
+      console.log("close");
+      // Close the navbar by toggling the collapsed state
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      const navbarCollapse = document.querySelector(".navbargo");
+      console.log(navbarCollapse);
+      if (navbarToggler && navbarCollapse) {
+        navbarToggler.classList.add("collapsed");
+        navbarCollapse.classList.remove("show");
+      }
+    },
+    changeLanguage(locale, langName) {
+      this.$i18n.locale = locale;
+      this.currentLangName = langName;
+      this.$root.$emit("changeLocale", locale);
+    },
+    getLangName(locale) {
+      if (locale === "kz") {
+        return "Қаз";
+      } else if (locale === "ru") {
+        return "Рус";
+      }
+      return locale;
+    },
+  },
+  data() {
+    return {
+      currentLangName: this.getLangName(this.$i18n.locale),
+    };
+  },
+  mounted() {
+    // Set the default language to 'ru'
+    this.$i18n.locale = "ru";
+    this.currentLangName = this.getLangName("ru");
+    this.$root.$emit("changeLocale", "ru");
+  },
   // Component logic goes here
 };
 </script>

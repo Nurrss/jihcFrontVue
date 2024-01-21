@@ -10,28 +10,13 @@
         :key="index"
         class="col-md-6 col-lg-4"
       >
-        <div class="card mb-3" style="max-width: 540px">
-          <div
-            class="row g-0 rounded-5 align-items-center"
-            style="max-height: 150px; background-position: center"
-          >
-            <div class="col-md-4">
-              <img :src="card.imgPath" class="img-fluid rounded-5" alt="" />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <p class="card-title">
-                  <small> {{ card.titleBoard }}</small>
-                </p>
-                <h5 class="card-text fw-bold">
-                  {{ card.name }}
-                </h5>
-                <p class="card-text fw-light lh-1">
-                  <small> {{ card.jobTitle }}</small>
-                </p>
-              </div>
-            </div>
-          </div>
+        <div
+          class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+        >
+          <img :src="card.imgPath" class="img-fluid rounded-5" alt="" />
+          <p class="card-title">
+            <b> {{ card.name }}</b> <small> {{ card.titleBoard }}</small>
+          </p>
         </div>
       </div>
     </div>
