@@ -206,7 +206,7 @@ export default {
           imgPath: require("../assets/jihc/comand/Бөкейхан Қалдыбек.avif"),
           jobTitle: "Учитель физики",
           name: "Бөкейхан Қалдыбек",
-          email: "nurzhan.sagyndyq@jihc.kz",
+          email: "bokeikhan.qaldybek@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Қаламқас Алиева .avif"),
