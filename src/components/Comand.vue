@@ -68,7 +68,7 @@ export default {
           imgPath: require("../assets/jihc/comand/Саулебекова Данагуль.avif"),
           jobTitle: "Учитель английского языка ",
           name: "Данагуль Саулебекова",
-          email: "nurzhan.sagyndyq@jihc.kz",
+          email: "danagul.saulebekova@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Айжан Бердибаева.avif"),
