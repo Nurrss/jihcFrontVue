@@ -1,8 +1,8 @@
 <template>
   <section id="info " class="my-5 container">
-    <div class="row gap-3">
+    <div class="row">
       <div
-        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
+        class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS pb-5"
       >
         <p class="">
           Edupage - это неотъемлемый инструмент для современных колледжей и школ
@@ -11,10 +11,8 @@
           о расписании занятий, домашних заданиях, и обновлениях школьной жизни
           в режиме реального времени.
         </p>
-        <p>Ссылка на электронный журнал:</p>
-        <a href="#">https://login1.edupage.org/</a>
+        <a href="#" class="">https://login1.edupage.org/</a>
       </div>
-
       <div
         class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-center d-flex"
       >

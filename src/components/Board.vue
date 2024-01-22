@@ -15,7 +15,7 @@
         >
           <img :src="card.imgPath" class="img-fluid rounded-5" alt="" />
           <p class="card-title">
-            <b> {{ card.name }}</b> <small> {{ card.titleBoard }}</small>
+            <b> {{ card.name }}</b> <br /><small> {{ card.titleBoard }}</small>
           </p>
         </div>
       </div>
