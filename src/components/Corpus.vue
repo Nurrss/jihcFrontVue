@@ -169,18 +169,111 @@
       </p>
     </div>
   </div>
-  <div class="pt-5 d-flex justify-content-center container">
+  <!-- <div class="pt-5 d-flex justify-content-center container">
     <img src="../assets/cor14.png" alt="" class="img-fluid" />
+  </div> -->
+
+  <div>
+    <div id="college-map">
+      <map name="collegeMap">
+        <!-- Define areas for sporthall, dormitory, corpus, etc. -->
+        <img src="../assets/cor14.png" usemap="#image_map" />
+        <map name="image_map">
+          <area alt="" title="" href="" coords="966,28,967,28" shape="rect" />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="1056,-283,1151,-267"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="1089,-218,1203,-186"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="1091,-46,1176,-26"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="753,-324,969,-289"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href="#asdf"
+            coords="1041,100,1237,136"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="271,-315,354,-295"
+            shape="rect"
+          />
+          <area alt="" title="" href="" coords="-1,-62,151,-38" shape="rect" />
+
+          //
+          <area alt="" title="" href="" coords="966,28,967,28" shape="rect" />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="1056,-283,1151,-267"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="1089,-218,1203,-186"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="271,-315,354,-295"
+            shape="rect"
+          />
+          <area
+            alt=""
+            title=""
+            href=""
+            coords="750,-121,973,-85"
+            shape="rect"
+          />
+        </map>
+      </map>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name,
+  data() {
+    return {
+      imagePath: require("../assets/cor14.png"),
+    };
+  },
 };
 </script>
 
 <style scoped>
+#college-map {
+  position: relative;
+}
 .carousel-item {
   height: 460px;
 }

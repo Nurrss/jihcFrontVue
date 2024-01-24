@@ -35,6 +35,7 @@ import StudentLife from "../pages/StudentLife.vue";
 import SupplyDocuments from "../pages/SupplyDocuments.vue";
 import Translate from "../pages/Translate.vue";
 import StudentHouse from "../pages/StudentHouse.vue";
+import PageNotFound from "../pages/PageNotFound.vue";
 
 const routes = [
   {
@@ -173,6 +174,10 @@ const routes = [
   {
     path: "/translate",
     component: Translate,
+  },
+  {
+    path: "/:pathMatch(.*)*", // catch all 404 - make sure this is at the end
+    component: PageNotFound,
   },
 ];
 
