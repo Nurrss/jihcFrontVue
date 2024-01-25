@@ -44,15 +44,7 @@
             {{ $t("Fact5P") }}
           </p>
         </div>
-        <div
-          class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
-        >
-          <i class="bi"><img src="../assets/factsCard6.png" alt="" /></i>
-          <h2>{{ $t("Fact5H") }}</h2>
-          <p class="f m-0 fw-normal">
-            {{ $t("Fact6P") }}
-          </p>
-        </div>
+
         <div
           class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center shadow"
         >
