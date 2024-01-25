@@ -6,7 +6,7 @@
     </p>
 
     <iframe
-      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FAlmaty&showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=NWJlNjViNDQ0YWYxM2YwZDdlOTVjMmE2N2FlM2JmZTE2NWI2NWE1MjI0MTNmMmY2OTMzMWI3NjcyNjBiM2U1NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=UTC&showTitle=0&showPrint=0&showTabs=0&src=aW5mb0BqaWhjLmt6&src=cnUua3ojaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043"
       style="border: 0"
       width="1200"
       height="600"
