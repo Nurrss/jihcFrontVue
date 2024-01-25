@@ -253,7 +253,7 @@ export default {
   //   Footer Texts
   FooterH1: "Байланыс үшін",
   FooterH2: "Әлеуметтік желілер",
-  FooterL1: "Тараз қ. Пшукина 154",
+  FooterL1: "Тараз қ. Пушкина 154",
 
   //   SecondNav Texts
   SecondNavP1: "Байланыс үшін",
