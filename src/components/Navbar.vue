@@ -25,14 +25,6 @@
               ><i class="bi bi-instagram"></i
             ></a>
           </li>
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-disabled="true"
-              href="https://www.youtube.com/@jihctv2095"
-              ><i class="bi bi-youtube"></i
-            ></a>
-          </li>
 
           <li class="nav-item">
             <a

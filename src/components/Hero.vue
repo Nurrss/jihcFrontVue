@@ -25,14 +25,8 @@ export default {
 .bg-img {
   background-image: url("@/assets/heroes-bg.png"); /* Adjust the path to your background image */
   background-size: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
 }
 
 .overlay {
@@ -41,8 +35,8 @@ export default {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.3)
   ); /* Adjust the opacity by changing the alpha values */
   top: 0;
   left: 0;

@@ -109,7 +109,7 @@ export default {
   Fact2P: "IELTS оқытушыларының орташа балы",
   Fact3H: "3",
   Fact3P: "колледжде оқу мерзімі",
-  Fact4H: "50",
+  Fact4H: "100",
   Fact4P: "колледжде тегін оқу гранттары жыл сайын бөлінеді",
   Fact5H: "2094",
   Fact5P:
@@ -122,7 +122,7 @@ export default {
   Fact8P: "түлектер бірден жоғары оқу орындарына түседі ",
   Fact9H: "394",
   Fact9P: "студенттер колледжде оқиды",
-  Fact10H: "240",
+  Fact10H: "270",
   Fact10P: "студенттер үйіндегі орындар ",
   Fact11H: "3",
   Fact11P: "оқытудың негізгі бағыттары: Pedagogy, IT, Accounting",
@@ -296,9 +296,7 @@ export default {
 
   ThirdNavNavItem5Li1: "Академиялық календарь",
   ThirdNavNavItem5Li2: "Электронды журнал",
-  ThirdNavNavItem5Li3: "Практика",
-  ThirdNavNavItem5Li4: "Карьера",
-  ThirdNavNavItem5Li5: "Проф. ориентация",
+  ThirdNavNavItem5Li3: "Практика , Карьера , Проф. ориентация",
   ThirdNavNavItem5Li6: "Комитеттер",
   ThirdNavNavItem5Li7: "Студенттік өмір",
   ThirdNavNavItem5Li8: "Студент үйі",

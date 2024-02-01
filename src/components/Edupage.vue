@@ -11,7 +11,7 @@
           о расписании занятий, домашних заданиях, и обновлениях школьной жизни
           в режиме реального времени.
         </p>
-        <a href="#" class="">https://login1.edupage.org/</a>
+        <a href="https://jihc.edupage.org" class="">Edupage</a>
       </div>
       <div
         class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-center d-flex"

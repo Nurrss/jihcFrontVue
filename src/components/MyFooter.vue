@@ -16,7 +16,7 @@
                   class="bi bi-envelope me-3 h3 m-0"
                   style="display: list-item; align-items: center"
                 ></i>
-                jambyl.innovation@jihc.kz
+                info@jihc.kz
               </a>
             </li>
             <li class="nav-item mb-2">
@@ -73,18 +73,6 @@
                   style="display: list-item; align-items: center"
                 ></i>
                 jihc_kz
-              </a>
-            </li>
-            <li class="nav-item mb-2">
-              <a
-                class="navbar-brand d-flex align-self-center"
-                href="https://www.youtube.com/@jihctv2095"
-              >
-                <i
-                  class="bi bi-youtube me-3 h3 m-0"
-                  style="display: list-item; align-items: center"
-                ></i>
-                JIHC TV
               </a>
             </li>
           </ul>

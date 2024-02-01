@@ -1,54 +1,16 @@
 <template>
-  <div
-    id="myCarousel"
-    class="container carousel slide mt-5"
-    data-bs-ride="carousel"
-  >
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide-to="0"
-        class="active"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-        class=""
-      ></button>
+  <div class="container text-center">
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row gap-2 justify-content-center">
+      <div class="col-md-7 rounded-4 mt-4 image1"></div>
+      <div class="col-6 col-md-4 image2 rounded-4 mt-4"></div>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active crs-img-1"></div>
-      <div class="carousel-item crs-img-2"></div>
-    </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#myCarousel"
-      data-bs-slide="prev"
-    >
-      <img src="../assets/button_prev.png" alt="" />
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#myCarousel"
-      data-bs-slide="next"
-    >
-      <img src="../assets/button_next.png" alt="" />
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <div class="text-center">
-    <div class="container">
-      <h2 class="m-5" style="color: #0077ff">{{ $t("SportH") }}</h2>
-      <p class="lead m-0">
-        {{ $t("SportP") }}
-      </p>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row mb-4 gap-2 mt-3">
+      <div class="col-6 col-md-3 rounded-4 image3 p-2"></div>
+      <div class="col-6 col-md-3 image4 rounded-4 p-2"></div>
+      <div class="col-6 col-md-3 image5 rounded-4 p-2"></div>
     </div>
   </div>
 </template>
@@ -60,39 +22,35 @@ export default {
 </script>
 
 <style scoped>
-.carousel-item {
-  height: 460px;
-}
-
-.crs-img-1 {
-  background: url("../assets/jihc/спортзал/sport1.avif");
+.image1 {
+  background-image: url("../assets/jihc/спортзал/sport1.avif");
+  height: 300px;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
 }
-.crs-img-2 {
-  background: url("../assets/jihc/спортзал/sport2.avif");
+
+.image2 {
+  background-image: url("../assets/jihc/спортзал/sport1.avif");
+  height: 300px;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  width: 100%;
 }
-
-@media (max-width: 991px) {
-  .carousel-item {
-    height: 350px;
-  }
-  .carousel-control-prev img,
-  .carousel-control-next img {
-    height: 8%;
-  }
+.image3 {
+  background-image: url("../assets/jihc/спортзал/sport1.avif");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-@media (max-width: 767px) {
-  .carousel-item {
-    height: 250px;
-  }
-  .carousel-control-next img {
-    height: 8%;
-  }
+.image4 {
+  background-image: url("../assets/jihc/спортзал/sport1.avif");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image5 {
+  background-image: url("../assets/jihc/спортзал/sport1.avif");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>

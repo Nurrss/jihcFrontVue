@@ -22,6 +22,12 @@
         id="navbarsExample10"
       >
         <ul class="navbar-nav">
+          <li>
+            <router-link to="/" exact class="nav-link active" href="#">
+              Главная
+            </router-link>
+          </li>
+
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle active"
@@ -159,20 +165,20 @@
             <ul class="dropdown-menu">
               <li>
                 <router-link
-                  to="/labaratory"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem4Li1") }}</router-link
-                >
-              </li>
-              <li>
-                <router-link
                   to="/corpus"
                   exact
                   class="dropdown-item"
                   href="#"
                   >{{ $t("ThirdNavNavItem4Li2") }}</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  to="/labaratory"
+                  exact
+                  class="dropdown-item"
+                  href="#"
+                  >{{ $t("ThirdNavNavItem4Li1") }}</router-link
                 >
               </li>
               <li>
@@ -242,24 +248,7 @@
                   >{{ $t("ThirdNavNavItem5Li3") }}</router-link
                 >
               </li>
-              <li>
-                <router-link
-                  to="/Career"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem5Li4") }}</router-link
-                >
-              </li>
-              <li>
-                <router-link
-                  to="/careerguidance"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem5Li5") }}</router-link
-                >
-              </li>
+
               <li>
                 <router-link to="/comit" exact class="dropdown-item" href="#">{{
                   $t("ThirdNavNavItem5Li6")

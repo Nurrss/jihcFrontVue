@@ -14,11 +14,8 @@
       >
         <div class="container-fluid container">
           <router-link to="/" exact class="navbar-brand" href="#"
-            ><img
-              src="../assets/jihc-logo-png-v1.png"
-              alt=""
-              style="width: 150px; height: 45px"
-          /></router-link>
+            ><div class="immg d-flex"></div
+          ></router-link>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,6 +32,17 @@
             id="navbarsExample10"
           >
             <ul class="navbar-nav">
+              <li>
+                <router-link
+                  to="/"
+                  exact
+                  class="nav-link active"
+                  href="#"
+                  @click="closeNavbar"
+                >
+                  Главная
+                </router-link>
+              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle active"
@@ -199,22 +207,22 @@
                 <ul class="dropdown-menu">
                   <li>
                     <router-link
-                      to="/labaratory"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      @click="closeNavbar"
-                      >Лаборатории</router-link
-                    >
-                  </li>
-                  <li>
-                    <router-link
                       to="/corpus"
                       exact
                       class="dropdown-item"
                       href="#"
                       @click="closeNavbar"
                       >Корпус</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/labaratory"
+                      exact
+                      class="dropdown-item"
+                      href="#"
+                      @click="closeNavbar"
+                      >Лаборатории</router-link
                     >
                   </li>
                   <li>
@@ -287,29 +295,10 @@
                       class="dropdown-item"
                       href="#"
                       @click="closeNavbar"
-                      >Практика</router-link
+                      >Практика , Карьера , Проф. ориентация</router-link
                     >
                   </li>
-                  <li>
-                    <router-link
-                      to="/Career"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      @click="closeNavbar"
-                      >Карьера</router-link
-                    >
-                  </li>
-                  <li>
-                    <router-link
-                      to="/careerguidance"
-                      exact
-                      class="dropdown-item"
-                      href="#"
-                      @click="closeNavbar"
-                      >Проф. ориентация</router-link
-                    >
-                  </li>
+
                   <li>
                     <router-link
                       to="/comit"
@@ -532,6 +521,13 @@ export default {
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.immg {
+  background-image: url("../assets/jihc-logo-sdu-v1.svg");
+  height: 45px;
+  width: 300px;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 990px) and (max-width: 1225px) {
   .navbar-nav > li > a {
     font-size: 10px;
@@ -540,6 +536,13 @@ export default {
 @media (min-width: 1225px) and (max-width: 1380px) {
   .navbar-nav > li > a {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 756px) {
+  .immg {
+    width: 250px;
+    margin-top: 12px;
   }
 }
 </style>

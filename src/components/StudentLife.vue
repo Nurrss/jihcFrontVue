@@ -20,8 +20,16 @@
       Координаторами студенческой жизни являются руководители комитетов по делам
       молодежи
     </p>
-    <p>Алишер Жунусов</p>
-    <p>Ажар Бейсембек</p>
+    <p>
+      <span class="fw-bold">Алишер Жунусов</span> - Координатор по студенческий
+      жизни мальчиков. Email:
+      <a href="mailto:alisher.zhunissov@jihc.kz">alisher.zhunissov@jihc.kz</a>
+    </p>
+    <p>
+      <span class="fw-bold">Азиза Саясатова</span> - Координатор по студенческий
+      жизни девочек. Email:
+      <a href="mailto:aziza.sayassatova@jihc.kz">aziza.sayassatova@jihc.kz</a>
+    </p>
   </div>
 </template>
 

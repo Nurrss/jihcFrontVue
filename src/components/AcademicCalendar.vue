@@ -5,15 +5,12 @@
       образовательной программы, годовой календарный учебный график составлен
       так, что учебный год будет начинаться 1 сентября и заканчиваться 28 июня.
     </p>
-    <p>
-      Просмотреть детальный годовой календарь на 2023-2024 учебный год можно
-      здесь: (ссылка на академический календарь
-      <a
-        href="https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112"
-        class="link-item"
-        >https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112</a
-      >)
-    </p>
+
+    <a
+      href="https://docs.google.com/spreadsheets/d/12zDp2-gsfxoysz7-J8PIxPE4xB0yALJp5bcTyGj3dXM/edit#gid=734390112"
+      class="link-item"
+      >Годовой календарь на 2023-2024 учебный год</a
+    >
   </div>
 </template>
 

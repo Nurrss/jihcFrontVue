@@ -2,11 +2,8 @@
   <nav class="navbar navbar-expand-lg py-2" aria-label="Twelfth navbar example">
     <div class="container-fluid container">
       <router-link to="/" exact class="navbar-brand" href="#"
-        ><img
-          src="../assets/jihc-logo-png-v1.png"
-          alt=""
-          style="width: 150px; height: 45px"
-      /></router-link>
+        ><div class="immg"></div
+      ></router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -36,7 +33,7 @@
                 {{ $t("SecondNavP1") }}
 
                 <br />
-                jambyl.innovation@jihc.kz
+                info@jihc.kz
               </p></a
             >
           </li>
@@ -124,6 +121,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.immg {
+  background-image: url("../assets/jihc-logo-sdu-v1.svg");
+  height: 45px;
+  width: 300px;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 990px) and (max-width: 1225px) {
   .navbar-nav > li > a {
     font-size: 10px;

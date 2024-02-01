@@ -173,81 +173,28 @@
     <img src="../assets/cor14.png" alt="" class="img-fluid" />
   </div> -->
   <!-- HTML with Bootstrap classes -->
-  <div class="container-xl position-relative p-0 mx-auto text-center map mt-5">
-    <img
-      src="../assets/obzorcollege.png"
-      alt="College Overview"
-      class="img-fluid mx-auto d-block"
-    />
-    <a href="link-to-location-1" class="map-link link1" style="top: 0.7%"
-      >СПОРТЗАЛ</a
-    >
-    <a href="link-to-location-2" class="map-link link2" style="top: 260px"
-      >ФУТБОЛЬНОЕ ПОЛЕ</a
-    >
-    <a
-      href="link-to-location-2"
-      class="map-link link3"
-      style="top: 3px; text-align: start"
-      >КОРПУС В (ОБЩЕЖИТИЕ ДЛЯ МАЛЬЧИКОВ И ДЕВОЧЕК)</a
-    >
-    <a href="link-to-location-2" class="map-link link4" style="top: 33px"
-      >ПРАЧЕЧНАЯ</a
-    >
-    <a
-      href="link-to-location-2"
-      class="map-link link5"
-      style="top: 108px; text-align: start"
-      >БЕСЕДКА ДЛЯ БАРБЕКЮ</a
-    >
-    <a href="link-to-location-2" class="map-link link6" style="top: 275px"
-      >СТОЛОВАЯ</a
-    >
-    <a
-      href="link-to-location-2"
-      class="map-link link7"
-      style="top: 426px; text-align: start"
-      >КОРПУС А (учебный корпус + актовый зал)</a
-    >
-    <!-- Add more links as needed -->
-  </div>
 
   <div class="container position-relative p-0 text-center map2 mt-5" style="">
     <img src="../assets/map2.png" alt="College Overview" class="img-fluid" />
-    <a href="link-to-location-1" class="map-link map-link1" style="top: 27.7%"
+    <a href="link-to-location-1" class="map-link map-link1 p-2 rounded" style=""
       >СПОРТЗАЛ</a
     >
-    <a href="link-to-location-2" class="map-link map-link2" style="top: 50%"
+    <a href="link-to-location-2" class="map-link map-link2 p-2 rounded" style=""
       >ФУТБОЛЬНОЕ ПОЛЕ</a
     >
-    <a
-      href="link-to-location-2"
-      class="map-link map-link3"
-      style="top: 6.7%; font-weight: 600; text-align: start"
+    <a href="link-to-location-2" class="map-link map-link3 p-2 rounded" style=""
       >КОРПУС В И ОБЩЕЖИТИЕ</a
     >
-    <a
-      href="link-to-location-2"
-      class="map-link map-link4"
-      style="top: 20.5%; font-weight: 600"
+    <a href="link-to-location-2" class="map-link map-link4 p-2 rounded" style=""
       >ПРАЧЕЧНАЯ</a
     >
-    <a
-      href="link-to-location-2"
-      class="map-link map-link5"
-      style="top: 44%; text-align: start; font-weight: 600"
+    <a href="link-to-location-2" class="map-link map-link5 p-2 rounded" style=""
       >БЕСЕДКА ДЛЯ БАРБЕКЮ</a
     >
-    <a
-      href="link-to-location-2"
-      class="map-link map-link6"
-      style="top: 49%; font-weight: 600"
+    <a href="link-to-location-2" class="map-link map-link6 p-2 rounded" style=""
       >СТОЛОВАЯ</a
     >
-    <a
-      href="link-to-location-2"
-      class="map-link map-link7"
-      style="top: 72.5%; text-align: start; font-weight: 600"
+    <a href="link-to-location-2" class="map-link map-link7 p-2 rounded" style=""
       >КОРПУС А (учебный <br />корпус + актовый зал)</a
     >
   </div>
@@ -264,112 +211,43 @@ export default {
 </script>
 
 <style scoped>
-.carousel-item {
-  height: 460px;
+.map-link1 {
+  top: 20.7%;
+  font-weight: 600;
+  background-color: white;
 }
-
-.crs-img-1 {
-  background: url("../assets/jihc/корпус/cor1.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+.map-link2 {
+  top: 39%;
+  background-color: white;
+  font-weight: 600;
 }
-.crs-img-2 {
-  background: url("../assets/jihc/корпус/cor2.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+.map-link3 {
+  top: 10.3%;
+  text-align: start;
+  background-color: white;
+  font-weight: 600;
 }
-.crs-img-3 {
-  background: url("../assets/jihc/корпус/cor3.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+.map-link4 {
+  top: 25%;
+  font-weight: 600;
+  background-color: white;
 }
-.crs-img-4 {
-  background: url("../assets/jihc/корпус/cor4.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+.map-link5 {
+  top: 37%;
+  text-align: start;
+  font-weight: 600;
+  background-color: white;
 }
-.crs-img-5 {
-  background: url("../assets/jihc/корпус/cor5.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
+.map-link6 {
+  top: 44%;
+  font-weight: 600;
+  background-color: white;
 }
-.crs-img-6 {
-  background: url("../assets/jihc/корпус/cor6.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-7 {
-  background: url("../assets/jihc/корпус/cor7.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-8 {
-  background: url("../assets/jihc/корпус/cor8.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-9 {
-  background: url("../assets/jihc/корпус/cor9.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-10 {
-  background: url("../assets/jihc/корпус/cor10.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-11 {
-  background: url("../assets/jihc/корпус/cor11.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-12 {
-  background: url("../assets/jihc/корпус/cor12.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-.crs-img-13 {
-  background: url("../assets/jihc/корпус/cor13.avif");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-}
-
-@media (max-width: 991px) {
-  .carousel-item {
-    height: 350px;
-  }
-  .carousel-control-prev img,
-  .carousel-control-next img {
-    height: 8%;
-  }
-}
-
-@media (max-width: 767px) {
-  .carousel-item {
-    height: 250px;
-  }
-  .carousel-control-next img {
-    height: 8%;
-  }
-}
-
-/* Custom CSS */
-.container-xl.position-relative {
-  /* margin-left: auto; */
-  /* margin-right: auto; */
+.map-link7 {
+  top: 67.5%;
+  text-align: start;
+  background-color: white;
+  font-weight: 600;
 }
 
 .map-link {
@@ -385,23 +263,19 @@ export default {
 @media (max-width: 1250px) {
   .map-link1 {
     font-weight: 600;
-    font-size: 15px;
-    left: 31.5%;
+    left: 29%;
   }
   .map-link2 {
     font-weight: 600;
-    font-size: 14px;
     left: 25.5%;
   }
   .map-link3 {
     font-weight: 600;
-    font-size: 13px;
-    left: 68.5%;
+    left: 53%;
   }
   .map-link4 {
     font-weight: 600;
-    font-size: 13px;
-    left: 77.5%;
+    left: 63%;
   }
   .map-link5 {
     font-weight: 600;
@@ -410,32 +284,76 @@ export default {
   }
   .map-link6 {
     font-weight: 600;
+    left: 67.5%;
+  }
+  .map-link7 {
+    font-weight: 600;
+    left: 44.5%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .map-link1 {
+    font-weight: 600;
+    font-size: 15px;
+    left: 25%;
+  }
+  .map-link2 {
+    font-weight: 600;
+    font-size: 14px;
+    left: 21.5%;
+  }
+  .map-link3 {
+    font-weight: 600;
     font-size: 13px;
-    left: 71.5%;
+    left: 53.5%;
+  }
+  .map-link4 {
+    font-weight: 600;
+    font-size: 13px;
+    left: 65.5%;
+  }
+  .map-link5 {
+    font-weight: 600;
+    font-size: 13px;
+    left: 45.5%;
+  }
+  .map-link6 {
+    font-weight: 600;
+    font-size: 13px;
+    left: 70.5%;
   }
   .map-link7 {
     font-weight: 600;
     font-size: 14px;
-    left: 51.5%;
+    left: 44.5%;
   }
 }
 @media (max-width: 992px) {
   .map-link1 {
-    left: 25.5%;
+    left: 18.5%;
   }
   .map-link2 {
-    left: 17.5%;
+    left: 11.5%;
   }
   .map-link3 {
-    left: 74.5%;
+    left: 55%;
     font-size: 13px;
   }
   .map-link4 {
-    left: 86.5%;
+    left: 70.5%;
+    font-size: 13px;
+  }
+  .map-link5 {
+    left: 41.5%;
     font-size: 13px;
   }
   .map-link6 {
-    left: 78.5%;
+    left: 77%;
+    font-size: 13px;
+  }
+  .map-link7 {
+    left: 41.5%;
     font-size: 13px;
   }
 }
@@ -443,7 +361,7 @@ export default {
   .map-link1 {
     font-weight: 600;
     font-size: 13px;
-    left: 22.5%;
+    left: 16.5%;
   }
   .map-link2 {
     font-weight: 600;
@@ -563,62 +481,135 @@ export default {
   }
 }
 
-@media (min-width: 1401px) {
-  .link1 {
-    left: 27%;
+@media (min-width: 1250px) {
+  .map-link1 {
+    left: 29%;
   }
-  .link2 {
-    left: 9%;
+  .map-link2 {
+    left: 25%;
   }
-  .link3 {
-    left: 74%;
+  .map-link3 {
+    left: 54.5%;
   }
-  .link4 {
-    left: 87%;
+  .map-link4 {
+    left: 64%;
   }
-  .link5 {
-    left: 91%;
+  .map-link5 {
+    left: 45%;
   }
-  .link6 {
-    left: 89%;
+  .map-link6 {
+    left: 68%;
   }
-  .link7 {
-    left: 89%;
+  .map-link7 {
+    left: 43%;
   }
 }
 
-@media (max-width: 1250px) {
-  .map {
-    display: none;
+.carousel-item {
+  height: 460px;
+}
+
+.crs-img-1 {
+  background: url("../assets/jihc/корпус/cor1.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-2 {
+  background: url("../assets/jihc/корпус/cor2.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-3 {
+  background: url("../assets/jihc/корпус/cor3.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-4 {
+  background: url("../assets/jihc/корпус/cor4.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-5 {
+  background: url("../assets/jihc/корпус/cor5.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-6 {
+  background: url("../assets/jihc/корпус/cor6.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-7 {
+  background: url("../assets/jihc/корпус/cor7.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-8 {
+  background: url("../assets/jihc/корпус/cor8.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-9 {
+  background: url("../assets/jihc/корпус/cor9.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-10 {
+  background: url("../assets/jihc/корпус/cor10.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-11 {
+  background: url("../assets/jihc/корпус/cor11.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-12 {
+  background: url("../assets/jihc/корпус/cor12.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.crs-img-13 {
+  background: url("../assets/jihc/корпус/cor13.avif");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .carousel-item {
+    height: 350px;
+  }
+  .carousel-control-prev img,
+  .carousel-control-next img {
+    height: 8%;
   }
 }
-@media (min-width: 1250px) {
-  .map2 {
-    display: none;
+
+@media (max-width: 767px) {
+  .carousel-item {
+    height: 250px;
+  }
+  .carousel-control-next img {
+    height: 8%;
   }
 }
-/* When the viewport width is less than or equal to 1400px */
-@media (max-width: 1400px) {
-  .link1 {
-    left: 23%;
-  }
-  .link2 {
-    left: 2%;
-  }
-  .link3 {
-    left: 75%;
-  }
-  .link4 {
-    left: 93%;
-  }
-  .link5 {
-    left: 95%;
-  }
-  .link6 {
-    left: 95%;
-  }
-  .link7 {
-    left: 92%;
-  }
+
+/* Custom CSS */
+.container-xl.position-relative {
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 </style>

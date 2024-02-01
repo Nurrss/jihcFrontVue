@@ -10,11 +10,13 @@
       для студентов 1 курса проживание в Доме студента обязательно
     </p>
     <p>
-      Студенты обязаны соблюдать правила внутреннего распорядка Дома студента.
+      Студенты обязаны соблюдать
       <a
         href="https://docs.google.com/document/d/1f9mbF-p4tFwo33TbIL1c2Xront0F4Twz-KIqJo9q0F0/edit"
-        >https://docs.google.com/document/d/1f9mbF-p4tFwo33TbIL1c2Xront0F4Twz-KIqJo9q0F0/edit</a
+        class="fw-bold"
+        >ПРАВИЛА</a
       >
+      внутреннего распорядка Дома студента.
     </p>
   </div>
 </template>

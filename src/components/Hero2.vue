@@ -47,8 +47,8 @@ export default {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.3)
   ); /* Adjust the opacity by changing the alpha values */
   top: 0;
   left: 0;

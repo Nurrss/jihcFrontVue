@@ -11,6 +11,9 @@ export default {
 };
 </script>
 <template>
-  <Hero2 title="Практика" podtitle="Главная / Практика" />
+  <Hero2
+    title="Практика , Карьера , Проф. ориентация"
+    podtitle="Главная / Практика , Карьера , Проф. ориентация"
+  />
   <Practic />
 </template>

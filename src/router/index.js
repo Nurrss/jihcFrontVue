@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 /* Pages */
 import Home from "../pages/Home.vue";
+import login from "../pages/login.vue";
 import Contact from "../pages/Contact.vue";
 import AcademCalendar from "../pages/AcademCalendar.vue";
 import Accounting from "../pages/Accounting.vue";
@@ -36,11 +37,33 @@ import SupplyDocuments from "../pages/SupplyDocuments.vue";
 import Translate from "../pages/Translate.vue";
 import StudentHouse from "../pages/StudentHouse.vue";
 import PageNotFound from "../pages/PageNotFound.vue";
+import Admin from "../pages/admin.vue";
+import AddNews from "../pages/AddNews.vue";
+import UpdateNews from "../pages/UpdateNews.vue";
 
 const routes = [
   {
     path: "/",
     component: Home,
+  },
+  {
+    path: "/AdminPanelToAddNewsToChangeNewsToUpdateNews",
+    name: "Admin",
+    component: Admin,
+    meta: { requiresAuth: true, hideFooter: true },
+  },
+  {
+    path: "/adminPanelNewsToAddNews",
+    name: "AddNews",
+    component: AddNews,
+    meta: { requiresAuth: true, hideFooter: true },
+  },
+  {
+    path: "/adminPanelNewsToUpdateNews/:id",
+    name: "UpdateNews",
+    component: UpdateNews,
+    meta: { requiresAuth: true, hideFooter: true },
+    props: true,
   },
   {
     path: "/dormitoryrools",
@@ -176,6 +199,11 @@ const routes = [
     component: Translate,
   },
   {
+    path: "/loginToTheAdminPanel",
+    component: login,
+    meta: { hideFooter: true },
+  },
+  {
     path: "/:pathMatch(.*)*", // catch all 404 - make sure this is at the end
     component: PageNotFound,
   },
@@ -184,6 +212,19 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+});
+
+router.beforeEach((to, from, next) => {
+  if (to.matched.some((record) => record.meta.requiresAuth)) {
+    if (!sessionStorage.getItem("accessToken")) {
+      // No access token found, redirect to login
+      next({ path: "/loginToTheAdminPanel" });
+    } else {
+      next(); // proceed to the route
+    }
+  } else {
+    next(); // does not require auth, make sure to always call next()!
+  }
 });
 
 export default router;

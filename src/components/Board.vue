@@ -4,19 +4,23 @@
       {{ $t("BoardH1") }}
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="row g-4">
       <div
         v-for="(card, index) in cards"
         :key="index"
-        class="col-md-6 col-lg-4"
+        class="col-12 col-sm-6 col-md-4 col-lg-3"
       >
-        <div
-          class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
-        >
-          <img :src="card.imgPath" class="img-fluid rounded-5" alt="" />
-          <p class="card-title">
-            <b> {{ card.name }}</b> <br /><small> {{ card.titleBoard }}</small>
-          </p>
+        <div class="card h-100 text-center p-4">
+          <img
+            :src="card.imgPath"
+            class="card-img-top mx-auto d-block c"
+            alt="Profile image"
+            style="width: 80%; height: auto"
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ card.name }}</h5>
+            <p class="card-text">{{ card.titleBoard }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -84,6 +88,9 @@ export default {
 <style scoped>
 .card {
   border: 0;
+}
+.c {
+  max-width: 130px;
 }
 /* Add your component-specific styles here */
 </style>

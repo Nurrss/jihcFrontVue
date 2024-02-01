@@ -3,7 +3,7 @@ import Hero from "../components/Hero.vue";
 import Column from "../components/Column.vue";
 import Jumbotron from "../components/Jumbotron.vue";
 import Column2 from "../components/Column2.vue";
-import Column3 from "../components/Column3.vue";
+import News from "../components/News.vue";
 
 export default {
   name: "App",
@@ -12,7 +12,7 @@ export default {
     Column,
     Jumbotron,
     Column2,
-    Column3,
+    News,
   },
 };
 </script>
@@ -20,7 +20,6 @@ export default {
   <hero />
   <Column />
   <jumbotron />
-
   <column2 />
-  <column3 />
+  <News />
 </template>

@@ -10,12 +10,12 @@
 
 <template>
   <div class="main-app">
-    <Navbar />
-    <combined />
+    <Navbar v-if="showElem" />
+    <combined v-if="showElem" />
     <main class="flex justify-center items-center max-w-lg mx-auto w-full">
       <RouterView />
     </main>
-    <my-footer />
+    <my-footer v-if="showElem" />
   </div>
 </template>
 
@@ -30,6 +30,12 @@ export default {
     Combined,
     Navbar,
     MyFooter,
+  },
+  computed: {
+    showElem() {
+      // Check if the current route's meta field specifies to hide the footer
+      return !this.$route.meta.hideFooter;
+    },
   },
 };
 </script>
