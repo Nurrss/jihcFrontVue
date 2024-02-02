@@ -3,16 +3,47 @@
     <div class="row mb-2">
       <div class="col-6 p-2">
         <img
-          src="../assets/jihc/столовая/stolovaya1.avif"
+          src="../assets/corpus/corpus1.avif"
           class="img-fluid"
           alt="First image description"
         />
       </div>
       <div class="col-6 p-2">
         <img
-          src="../assets/jihc/столовая/stolovaya2.avif"
+          src="../assets/corpus/corpus2.avif"
           class="img-fluid"
           alt="Second image description"
+        />
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/corpus/corpus3.avif"
+          class="img-fluid"
+          alt="Third image description"
+        />
+      </div>
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/corpus/corpus4.avif"
+          class="img-fluid"
+          alt="Fourth image description"
+        />
+      </div>
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/corpus/corpus5.avif"
+          class="img-fluid"
+          alt="Fifth image description"
+        />
+      </div>
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/corpus/corpus6.avif"
+          class="img-fluid"
+          alt="Sixth image description"
         />
       </div>
     </div>

@@ -142,7 +142,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <h2 class="m-5 text-center" style="color: #0077ff">{{ $t("CorpusH") }}</h2>
+  <h2 class="m-5 text-center" style="color: #0077ff">Корпус</h2>
   <div class="">
     <div class="container">
       <p class="lead m-0">
@@ -176,26 +176,54 @@
 
   <div class="container position-relative p-0 text-center map2 mt-5" style="">
     <img src="../assets/map2.png" alt="College Overview" class="img-fluid" />
-    <a href="link-to-location-1" class="map-link map-link1 p-2 rounded" style=""
-      >СПОРТЗАЛ</a
+    <router-link
+      to="/sporthall"
+      exact
+      class="map-link map-link1 p-2 rounded"
+      href="#"
+      >СПОРТЗАЛ</router-link
     >
-    <a href="link-to-location-2" class="map-link map-link2 p-2 rounded" style=""
-      >ФУТБОЛЬНОЕ ПОЛЕ</a
+    <router-link
+      to="/football"
+      exact
+      class="map-link map-link2 p-2 rounded"
+      href="#"
+      >ФУТБОЛЬНОЕ ПОЛЕ</router-link
     >
-    <a href="link-to-location-2" class="map-link map-link3 p-2 rounded" style=""
-      >КОРПУС В И ОБЩЕЖИТИЕ</a
+    <router-link
+      to="/Dormitory"
+      exact
+      class="map-link map-link3 p-2 rounded"
+      href="#"
+      >КОРПУС В И ОБЩЕЖИТИЕ</router-link
     >
-    <a href="link-to-location-2" class="map-link map-link4 p-2 rounded" style=""
-      >ПРАЧЕЧНАЯ</a
+    <router-link
+      to="/prachka"
+      exact
+      class="map-link map-link4 p-2 rounded"
+      href="#"
+      >ПРАЧЕЧНАЯ</router-link
     >
-    <a href="link-to-location-2" class="map-link map-link5 p-2 rounded" style=""
-      >БЕСЕДКА ДЛЯ БАРБЕКЮ</a
+    <router-link
+      to="/barbe"
+      exact
+      class="map-link map-link5 p-2 rounded"
+      href="#"
+      >БЕСЕДКА ДЛЯ БАРБЕКЮ</router-link
     >
-    <a href="link-to-location-2" class="map-link map-link6 p-2 rounded" style=""
-      >СТОЛОВАЯ</a
+    <router-link
+      to="/canteen"
+      exact
+      class="map-link map-link6 p-2 rounded"
+      href="#"
+      >СТОЛОВАЯ</router-link
     >
-    <a href="link-to-location-2" class="map-link map-link7 p-2 rounded" style=""
-      >КОРПУС А (учебный <br />корпус + актовый зал)</a
+    <router-link
+      to="/canteen"
+      exact
+      class="map-link map-link7 p-2 rounded"
+      href="#"
+      >КОРПУС А (учебный <br />корпус + актовый зал)</router-link
     >
   </div>
 </template>
@@ -483,25 +511,26 @@ export default {
 
 @media (min-width: 1250px) {
   .map-link1 {
-    left: 29%;
+    left: 32%;
   }
   .map-link2 {
-    left: 25%;
+    left: 28%;
   }
   .map-link3 {
-    left: 54.5%;
+    left: 54%;
+    top: 9.3%;
   }
   .map-link4 {
-    left: 64%;
+    left: 62%;
   }
   .map-link5 {
     left: 45%;
   }
   .map-link6 {
-    left: 68%;
+    left: 65%;
   }
   .map-link7 {
-    left: 43%;
+    left: 45%;
   }
 }
 

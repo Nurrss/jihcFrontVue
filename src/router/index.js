@@ -23,7 +23,7 @@ import Facts from "../pages/Facts.vue";
 import GoogleCalendar from "../pages/GoogleCalendar.vue";
 import History from "../pages/History.vue";
 import IT from "../pages/IT.vue";
-import Labaratory from "../pages/Labaratory.vue";
+import football from "../pages/football.vue";
 import ParentComit from "../pages/ParentComit.vue";
 import Partner from "../pages/Partner.vue";
 import Pedogogika from "../pages/Pedogogika.vue";
@@ -40,6 +40,10 @@ import PageNotFound from "../pages/PageNotFound.vue";
 import Admin from "../pages/admin.vue";
 import AddNews from "../pages/AddNews.vue";
 import UpdateNews from "../pages/UpdateNews.vue";
+import Prachka from "../pages/Prachka.vue";
+import barbe from "../pages/Barbe.vue";
+import corpusA from "../pages/corpusA.vue";
+import AllNews from "../pages/AllNews.vue";
 
 const routes = [
   {
@@ -70,6 +74,18 @@ const routes = [
     component: StudentHouse,
   },
   {
+    path: "/AllNews",
+    component: AllNews,
+  },
+  {
+    path: "/corpusA",
+    component: corpusA,
+  },
+  {
+    path: "/barbe",
+    component: barbe,
+  },
+  {
     path: "/contact",
     component: Contact,
   },
@@ -96,6 +112,10 @@ const routes = [
   {
     path: "/canteen",
     component: Canteen,
+  },
+  {
+    path: "/prachka",
+    component: Prachka,
   },
   {
     path: "/careerguidance",
@@ -150,8 +170,8 @@ const routes = [
     component: IT,
   },
   {
-    path: "/labaratory",
-    component: Labaratory,
+    path: "/football",
+    component: football,
   },
   {
     path: "/partner",

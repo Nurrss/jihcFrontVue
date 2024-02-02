@@ -1,11 +1,5 @@
 <template>
   <div class="container">
-    <div class="text-center">
-      <h1 class="m-5 text-center" style="color: #0077ff">
-        Объявление
-        <hr />
-      </h1>
-    </div>
     <div class="row">
       <div class="col-12 col-md-4" v-for="item in cards" :key="item._id">
         <div class="card mb-3">
@@ -57,9 +51,8 @@ export default {
         );
 
         // Take only the last three news items
-        const lastThreeNews = response.data.slice(0, 3);
 
-        this.cards = lastThreeNews.map((item) => ({
+        this.cards = response.data.map((item) => ({
           ...item,
           // Directly assign the transformed URL to imgPath
           imgPath: item.imgPath,

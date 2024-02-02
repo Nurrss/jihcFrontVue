@@ -1,23 +1,60 @@
 <template>
-  <div class="container text-center">
-    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-    <div class="row gap-2 justify-content-center">
-      <div class="col-md-7 rounded-4 mt-4 image1"></div>
-      <div class="col-6 col-md-4 image2 rounded-4 mt-4"></div>
+  <div class="container text-center mt-5">
+    <div class="row mb-2">
+      <div class="col-6 p-2">
+        <img
+          src="../assets/sporthall/sport1.avif"
+          class="img-fluid"
+          alt="First image description"
+        />
+      </div>
+      <div class="col-6 p-2">
+        <img
+          src="../assets/sporthall/sport2.avif"
+          class="img-fluid"
+          alt="Second image description"
+        />
+      </div>
     </div>
 
-    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-    <div class="row mb-4 gap-2 mt-3">
-      <div class="col-6 col-md-3 rounded-4 image3 p-2"></div>
-      <div class="col-6 col-md-3 image4 rounded-4 p-2"></div>
-      <div class="col-6 col-md-3 image5 rounded-4 p-2"></div>
+    <div class="row mb-4">
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/sporthall/sport3.avif"
+          class="img-fluid"
+          alt="Third image description"
+        />
+      </div>
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/sporthall/sport4.avif"
+          class="img-fluid"
+          alt="Fourth image description"
+        />
+      </div>
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/sporthall/sport5.avif"
+          class="img-fluid"
+          alt="Fifth image description"
+        />
+      </div>
+      <div class="col-6 col-md-3 p-2">
+        <img
+          src="../assets/sporthall/sport6.avif"
+          class="img-fluid"
+          alt="Sixth image description"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name,
+  data() {
+    return {};
+  },
 };
 </script>
 

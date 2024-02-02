@@ -74,6 +74,12 @@
                   $t("ThirdNavNavItem1Li6")
                 }}</router-link>
               </li>
+
+              <li>
+                <router-link to="/AllNews" exact class="dropdown-item" href="#"
+                  >Объявление</router-link
+                >
+              </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -164,21 +170,13 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                <router-link
-                  to="/corpus"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem4Li2") }}</router-link
+                <router-link to="/corpus" exact class="dropdown-item" href="#"
+                  >Корпус</router-link
                 >
               </li>
               <li>
-                <router-link
-                  to="/labaratory"
-                  exact
-                  class="dropdown-item"
-                  href="#"
-                  >{{ $t("ThirdNavNavItem4Li1") }}</router-link
+                <router-link to="/corpusA" exact class="dropdown-item" href="#"
+                  >Корпус А (учебный корпус + актовый зал)</router-link
                 >
               </li>
               <li>
@@ -187,7 +185,7 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >{{ $t("ThirdNavNavItem4Li3") }}</router-link
+                  >Корпус В + Общежитие</router-link
                 >
               </li>
               <li>
@@ -196,9 +194,20 @@
                   exact
                   class="dropdown-item"
                   href="#"
-                  >{{ $t("ThirdNavNavItem4Li4") }}</router-link
+                  >Спортзал</router-link
                 >
               </li>
+              <li>
+                <router-link to="/football" exact class="dropdown-item" href="#"
+                  >Футбольное поле</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/barbe" exact class="dropdown-item" href="#"
+                  >Беседка для барбекю</router-link
+                >
+              </li>
+
               <li>
                 <router-link
                   to="/canteen"
@@ -206,6 +215,11 @@
                   class="dropdown-item"
                   href="#"
                   >{{ $t("ThirdNavNavItem4Li5") }}</router-link
+                >
+              </li>
+              <li>
+                <router-link to="/prachka" exact class="dropdown-item" href="#"
+                  >Прачечная</router-link
                 >
               </li>
             </ul>

@@ -10,6 +10,6 @@ export default {
 };
 </script>
 <template>
-  <hero2 :title="$t('SportPage.title')" :podtitle="$t('SportPage.podtitle')" />
+  <hero2 title="Спортзал" podtitle="Главная / Спортзал" />
   <Sporthall />
 </template>

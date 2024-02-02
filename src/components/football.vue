@@ -3,14 +3,14 @@
     <div class="row mb-2">
       <div class="col-6 p-2">
         <img
-          src="../assets/jihc/столовая/stolovaya1.avif"
+          src="../assets/football/football1.avif"
           class="img-fluid"
           alt="First image description"
         />
       </div>
       <div class="col-6 p-2">
         <img
-          src="../assets/jihc/столовая/stolovaya2.avif"
+          src="../assets/football/football2.avif"
           class="img-fluid"
           alt="Second image description"
         />
