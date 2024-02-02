@@ -59,7 +59,7 @@ export default {
       const id = this.$route.params.id; // Get the id from route params
       try {
         const response = await axios.get(
-          `http://localhost:8800/admin/news/${id}`
+          `https://jihc.edu.kz/api/admin/news/${id}`
         );
         this.news = {
           newsTitle: response.data.newsTitle,
@@ -90,7 +90,7 @@ export default {
       try {
         // Sending PUT request with Axios to update news by ID
         const response = await axios.put(
-          `http://localhost:8800/admin/news/${id}`,
+          `https://jihc.edu.kz/api/admin/news/${id}`,
           formData
         );
 
