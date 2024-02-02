@@ -46,7 +46,7 @@ export default {
       // Inside your login method
       try {
         const response = await axios.post(
-          "http://localhost:8800/auth",
+          "https://jihc.edu.kz/api/auth",
           formData
         );
         sessionStorage.setItem("accessToken", response.data.accessToken);
