@@ -60,7 +60,7 @@ export default {
     },
     async fetchNews() {
       try {
-        const response = await axios.get("http://localhost:8800/admin/news", {
+        const response = await axios.get("https://jihc.edu.kz/api/admin/news", {
           withCredentials: true,
         });
         this.cards = response.data.map((item) => ({
@@ -74,7 +74,7 @@ export default {
     },
     async deleteNews(id) {
       try {
-        await axios.delete(`http://localhost:8800/admin/news/${id}`);
+        await axios.delete(`https://jihc.edu.kz/api/admin/news/${id}`);
         this.cards = this.cards.filter((item) => item._id !== id);
       } catch (error) {
         console.error("Error deleting news:", error);
