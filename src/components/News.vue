@@ -42,7 +42,7 @@ export default {
     },
     async fetchNews() {
       try {
-        const response = await axios.get("http://localhost:8800/news", {
+        const response = await axios.get("https://jihc.edu.kz/api/news", {
           withCredentials: true,
         });
 
