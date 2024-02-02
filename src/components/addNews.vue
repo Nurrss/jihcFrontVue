@@ -61,7 +61,7 @@ export default {
 
       try {
         // Sending POST request with Axios
-        await axios.post("http://localhost:8800/admin/news/add", formData);
+        await axios.post("https://jihc.edu.kz/api/admin/news/add", formData);
 
         this.clearText();
         // console.log(response.data);
