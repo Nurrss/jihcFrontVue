@@ -55,7 +55,7 @@
         class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
         v-for="card in cards3"
         :key="card.email"
-        style="background-color: #0077ff"
+        style="background-color: #00805e"
       >
         <p class="fw-bold text-light m-0 ms-1">{{ card.name }}</p>
         <p class="fw-medium text-light p-0 m-0 ms-1 job">
@@ -75,7 +75,7 @@
         class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
         v-for="card in cards4"
         :key="card.email"
-        style="background-color: #0077ff"
+        style="background-color: #43188a"
       >
         <p class="fw-bold text-light m-0 ms-1">{{ card.name }}</p>
         <p class="fw-medium text-light p-0 m-0 ms-1 job">
@@ -95,7 +95,7 @@
         class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
         v-for="card in cards5"
         :key="card.email"
-        style="background-color: #0077ff"
+        style="background-color: #ff9100"
       >
         <p class="fw-bold text-light m-0 ms-1">{{ card.name }}</p>
         <p class="fw-medium text-light p-0 m-0 ms-1 job">
@@ -135,7 +135,7 @@
         class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
         v-for="card in cards7"
         :key="card.email"
-        style="background-color: #0077ff"
+        style="background-color: #00a353"
       >
         <p class="fw-bold text-light m-0 ms-1">{{ card.name }}</p>
         <p class="fw-medium text-light p-0 m-0 ms-1 job">
@@ -182,32 +182,32 @@ export default {
         },
         {
           imgPath: require("../assets/jihc/comand/Ержан Койшибеков.avif"),
-          jobTitle: "Завуч",
+          jobTitle: "Заместитель директора по учебно-методической работе",
           name: "Ержан Койшибеков",
           email: "erzhan.koishybekov@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Бақытжан Қазанғапов.avif"),
-          jobTitle: "Завуч",
+          jobTitle: "Заместитель директора по воспитательной работе",
           name: "Бақытжан Қазанғапов",
           email: "bakytzhan.kazangapov@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Сарманов Айдос.avif"),
-          jobTitle: "Завуч",
+          jobTitle: "Заместитель директора по воспитательной работе",
           name: "Айдос Сарманов",
           email: "aidos.sarmanov@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Ақжан Нұрекеева.avif"),
-          jobTitle: "Учитель математики",
+          jobTitle: "Заместитель директора по воспитательной работе",
           name: "Ақжан Нұрекеева",
           email: "akzhan.nurkeyeva@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Жолдыбаева Тамара .avif"),
-          jobTitle: "Учитель русского языка ",
-          name: "Тамара Жолдыбаева",
+          jobTitle: "Заместитель директора по воспитательной работе",
+          name: "Каримбердиева Тамара",
           email: "tamara.zholdybaeva@jihc.kz",
         },
         /*   {

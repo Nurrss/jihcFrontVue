@@ -12,7 +12,7 @@
           class="col-md-2 col-5 d-flex flex-column shadow bg-body-tertiary rounded-4 py-5"
         >
           <i class="bi"><img src="../assets/col1card2.png" alt="" /></i>
-          {{ $t("ColumnD2P1") }} <br />{{ $t("ColumnD2P2") }}
+          Сознательное <br />воспитание
         </div>
         <div
           class="col-md-2 col-5 d-flex flex-column shadow bg-body-tertiary rounded-4 py-5"

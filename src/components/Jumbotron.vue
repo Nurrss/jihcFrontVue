@@ -19,6 +19,12 @@
         <p>
           {{ $t("JumbotronP1P3") }}
         </p>
+        <p>
+          Алишер Бодаубеков <br />
+          <a href="mailto:alisher.bodaubekov@jihc.kz"
+            >alisher.bodaubekov@jihc.kz</a
+          >
+        </p>
       </div>
       <div
         class="col-lg-6 col-md-6 col-sm-6 align-self-center justify-content-end d-flex"
