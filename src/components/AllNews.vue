@@ -5,7 +5,7 @@
         <div class="card mb-3">
           <img class="card-img-top" :src="item.imgPath" alt="Card image cap" />
           <div class="card-body">
-            <h5 class="card-title">{{ item.newsTitle }}</h5>
+            <h5 class="card-title fw-bold">{{ item.newsTitle }}</h5>
             <p class="card-text">{{ item.description }}</p>
             <p class="card-time">{{ formatDate(item.createdAt) }}</p>
           </div>
