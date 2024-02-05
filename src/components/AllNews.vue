@@ -30,15 +30,17 @@ export default {
   methods: {
     formatDate(value) {
       if (value) {
-        // You can customize the options as needed
-        return new Date(value).toLocaleDateString(undefined, {
+        // Specify Russian locale 'ru-RU'
+        return new Date(value).toLocaleDateString("ru-RU", {
           year: "numeric",
           month: "long",
           day: "numeric",
+          weekday: "long", // You can add this if you want to include the day of the week
         });
       }
       return "";
     },
+
     async fetchNews() {
       try {
         const response = await axios.get("https://jihc.edu.kz/api/news", {
