@@ -1,5 +1,6 @@
 <template>
-  <div class="container text-center mt-5">
+  <h1>This page on Process</h1>
+  <!-- <div class="container text-center mt-5">
     <div class="row mb-2">
       <div class="col-6 p-2">
         <img
@@ -16,7 +17,7 @@
         />
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
