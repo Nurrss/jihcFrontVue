@@ -60,14 +60,10 @@ export default {
         // Take only the last three news items
         const lastThreeNews = response.data.slice(0, 3);
 
-        // Assign a direct link to the image to each news item
-        const googleDriveImageLink =
-          "https://drive.google.com/uc?export=view&id=17rNEnlUANLcwObZjBRO5wiOkrZz8ILfu";
-
         this.cards = lastThreeNews.map((item) => ({
           ...item,
-          // Use the Google Drive image link as imgPath
-          imgPath: googleDriveImageLink, // This will set the same image for all news items
+          // Directly assign the transformed URL to imgPath
+          imgPath: item.imgPath,
         }));
       } catch (error) {
         console.error("Error fetching news:", error);
