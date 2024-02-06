@@ -124,6 +124,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.card {
+  max-width: 408px;
+}
 .card img {
   max-height: 275px;
   object-fit: cover;
