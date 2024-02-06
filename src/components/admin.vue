@@ -11,44 +11,25 @@
         Add news <i class="bi bi-plus"></i
       ></router-link>
     </div>
-    <ul>
-      <li
-        v-for="item in cards"
-        :key="item._id"
-        class="d-flex flex-direction-column justify-content-center"
-      >
-        <article>
-          <h2>
-            <router-link
-              @click="get(item._id)"
-              :to="{
-                name: 'UpdateNews',
-                params: { id: item._id },
-                props: { news: item },
-              }"
-              exact
-              class="navbar-brand"
-              href="#"
-            >
-              {{ item.newsTitle }}
-            </router-link>
-          </h2>
-          <img class="img-fluid d-flex" :src="item.imgPath" alt="News image" />
-          <p></p>
-          <div class="info">
-            <span>{{ item.description }}</span>
-            <span>{{ formatDate(item.createdAt) }}</span>
+    <div class="container">
+      <div class="text-center"></div>
+      <div class="row">
+        <div class="col-12 col-md-4" v-for="item in cards" :key="item._id">
+          <div class="card mb-3">
+            <img
+              class="card-img-top"
+              :src="item.imgPath"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold">{{ item.newsTitle }}</h5>
+              <p class="card-text">{{ item.description }}</p>
+              <p class="card-time">{{ formatDate(item.createdAt) }}</p>
+            </div>
           </div>
-          <div class="d-flex justify-content-between mt-3">
-            <span>{{ formatDate(item.createdAt) }}</span>
-            <button class="btn-delete" @click="deleteNews(item._id)">
-              <i class="bi bi-trash"></i>
-            </button>
-          </div>
-          <hr />
-        </article>
-      </li>
-    </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
