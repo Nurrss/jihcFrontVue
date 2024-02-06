@@ -11,8 +11,8 @@
         Add news <i class="bi bi-plus"></i
       ></router-link>
     </div>
-    <div class="container">
-      <div class="text-center"></div>
+
+    <div class="container my-5">
       <div class="row">
         <div class="col-12 col-md-4" v-for="item in cards" :key="item._id">
           <div class="card mb-3">
@@ -22,9 +22,26 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title fw-bold">{{ item.newsTitle }}</h5>
+              <h2>
+                <router-link
+                  @click="get(item._id)"
+                  :to="{
+                    name: 'UpdateNews',
+                    params: { id: item._id },
+                    props: { news: item },
+                  }"
+                  exact
+                  class="navbar-brand"
+                  href="#"
+                >
+                  {{ item.newsTitle }}
+                </router-link>
+              </h2>
               <p class="card-text">{{ item.description }}</p>
               <p class="card-time">{{ formatDate(item.createdAt) }}</p>
+              <button class="btn-delete" @click="deleteNews(item._id)">
+                <i class="bi bi-trash"></i>
+              </button>
             </div>
           </div>
         </div>
