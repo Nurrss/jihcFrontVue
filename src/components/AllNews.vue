@@ -81,6 +81,9 @@ export default {
 }
 
 .text-truncate {
+  overflow: visible;
+  display: flex;
+  flex-wrap: wrap;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
