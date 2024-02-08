@@ -12,7 +12,15 @@
           <img class="card-img-top" :src="item.imgPath" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title fw-bold">{{ item.newsTitle }}</h5>
-            <p class="card-text">{{ item.description }}</p>
+            <p
+              class="card-text"
+              :class="{ 'text-truncate': !item.isFullTextVisible }"
+            >
+              {{ item.description }}
+            </p>
+            <button @click="toggleText(item)" class="btn btn-link p-0">
+              {{ item.isFullTextVisible ? "Скрыть" : "Подробнее" }}
+            </button>
             <p class="card-time">{{ formatDate(item.createdAt) }}</p>
           </div>
         </div>
@@ -44,6 +52,9 @@ export default {
         });
       }
       return "";
+    },
+    toggleText(card) {
+      card.isFullTextVisible = !card.isFullTextVisible;
     },
 
     async fetchNews() {
@@ -79,5 +90,11 @@ export default {
   object-fit: cover;
   background-repeat: no-repeat;
   background-repeat: no-repeat;
+}
+
+.text-truncate {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 </style>
