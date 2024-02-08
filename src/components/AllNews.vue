@@ -6,7 +6,15 @@
           <img class="card-img-top" :src="item.imgPath" alt="Card image cap" />
           <div class="card-body">
             <h5 class="card-title fw-bold">{{ item.newsTitle }}</h5>
-            <p class="card-text">{{ item.description }}</p>
+            <p
+              class="card-text"
+              :class="{ 'text-truncate': !item.isFullTextVisible }"
+            >
+              {{ item.description }}
+            </p>
+            <button @click="toggleText(item)" class="btn btn-link p-0">
+              {{ item.isFullTextVisible ? "Скрыть" : "Подробнее" }}
+            </button>
             <p class="card-time">{{ formatDate(item.createdAt) }}</p>
           </div>
         </div>
@@ -30,15 +38,18 @@ export default {
   methods: {
     formatDate(value) {
       if (value) {
-        // Specify Russian locale 'ru-RU'
         return new Date(value).toLocaleDateString("ru-RU", {
           year: "numeric",
           month: "long",
           day: "numeric",
-          weekday: "long", // You can add this if you want to include the day of the week
+          weekday: "long",
         });
       }
       return "";
+    },
+
+    toggleText(card) {
+      card.isFullTextVisible = !card.isFullTextVisible;
     },
 
     async fetchNews() {
@@ -46,18 +57,13 @@ export default {
         const response = await axios.get("https://jihc.edu.kz/api/news", {
           withCredentials: true,
         });
-
-        // Sort the news items by date in descending order
         response.data.sort(
           (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
         );
-
-        // Take only the last three news items
-
         this.cards = response.data.map((item) => ({
           ...item,
-          // Directly assign the transformed URL to imgPath
           imgPath: item.imgPath,
+          isFullTextVisible: false,
         }));
       } catch (error) {
         console.error("Error fetching news:", error);
@@ -72,6 +78,13 @@ export default {
   max-height: 275px;
   object-fit: cover;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
+}
+
+.text-truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 </style>
