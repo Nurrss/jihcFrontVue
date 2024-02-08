@@ -7,7 +7,7 @@
           <div class="card-body">
             <h5 class="card-title fw-bold">{{ item.newsTitle }}</h5>
             <p
-              class="card-text"
+              class="card-text flex-wrap"
               :class="{ 'text-truncate': !item.isFullTextVisible }"
             >
               {{ item.description }}
@@ -81,10 +81,8 @@ export default {
 }
 
 .text-truncate {
-  display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 </style>
