@@ -13,9 +13,15 @@
         aria-label="Twelfth navbar example"
       >
         <div class="container-fluid container">
-          <router-link to="/" exact class="navbar-brand" href="#"
-            ><div class="immg d-flex"></div
-          ></router-link>
+          <div class="d-flex">
+            <router-link to="/" exact class="navbar-brand m-0" href="#">
+              <div class="immg2 border-end border-secondary"></div
+            ></router-link>
+            <a
+              href="https://sdu.edu.kz/language/ru/"
+              class="immg ms-2 mt-1"
+            ></a>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -103,6 +109,16 @@
                       href="#"
                       @click="closeNavbar"
                       >Попечительский совет</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/AllNews"
+                      exact
+                      class="dropdown-item"
+                      href="#"
+                      @click="closeNavbar"
+                      >Объявления</router-link
                     >
                   </li>
                 </ul>
@@ -522,9 +538,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .immg {
-  background-image: url("../assets/jihc-logo-sdu-v1.svg");
-  height: 45px;
-  width: 300px;
+  background-image: url("../assets/jihc-logo-sdu-v2.svg");
+  height: 25px;
+  width: 117px;
+  background-repeat: no-repeat;
+}
+
+.immg2 {
+  background-image: url("../assets/jihc-logo-svg-v1.svg");
+  height: 25px;
+  width: 100px;
   background-repeat: no-repeat;
 }
 
@@ -540,9 +563,5 @@ export default {
 }
 
 @media (max-width: 756px) {
-  .immg {
-    width: 250px;
-    margin-top: 12px;
-  }
 }
 </style>

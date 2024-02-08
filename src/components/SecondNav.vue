@@ -5,7 +5,7 @@
         <router-link to="/" exact class="navbar-brand m-0" href="#">
           <div class="immg2 border-end border-secondary"></div
         ></router-link>
-        <a href="https://sdu.edu.kz/language/ru/" class="immg ms-2"></a>
+        <a href="https://sdu.edu.kz/language/ru/" class="immg ms-2 mt-1"></a>
       </div>
       <button
         class="navbar-toggler"
@@ -128,7 +128,7 @@ export default {
   margin-left: 1px;
 }
 .immg {
-  background-image: url("../assets/jihc-logo-sdu-v4.svg");
+  background-image: url("../assets/jihc-logo-sdu-v2.svg");
   height: 35px;
   width: 285px;
   background-repeat: no-repeat;

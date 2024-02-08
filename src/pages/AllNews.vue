@@ -10,6 +10,6 @@ export default {
 };
 </script>
 <template>
-  <Hero2 title="Объявление" podtitle="Главная / Объявление" />
+  <Hero2 title="Объявления" podtitle="Главная / Объявления" />
   <AllNews />
 </template>

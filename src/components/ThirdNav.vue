@@ -77,7 +77,7 @@
 
               <li>
                 <router-link to="/AllNews" exact class="dropdown-item" href="#"
-                  >Объявление</router-link
+                  >Объявления</router-link
                 >
               </li>
             </ul>
