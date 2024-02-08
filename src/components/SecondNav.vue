@@ -1,9 +1,12 @@
 <template>
   <nav class="navbar navbar-expand-lg py-2" aria-label="Twelfth navbar example">
     <div class="container-fluid container">
-      <router-link to="/" exact class="navbar-brand" href="#"
-        ><div class="immg"></div
-      ></router-link>
+      <div class="d-flex">
+        <router-link to="/" exact class="navbar-brand m-0" href="#">
+          <div class="immg2 border-end border-secondary"></div
+        ></router-link>
+        <a href="https://sdu.edu.kz/language/ru/" class="immg ms-2"></a>
+      </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -121,10 +124,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.mar {
+  margin-left: 1px;
+}
 .immg {
-  background-image: url("../assets/jihc-logo-sdu-v1.svg");
-  height: 45px;
-  width: 300px;
+  background-image: url("../assets/jihc-logo-sdu-v4.svg");
+  height: 35px;
+  width: 285px;
+  background-repeat: no-repeat;
+}
+
+.immg2 {
+  background-image: url("../assets/jihc-logo-svg-v1.svg");
+  height: 35px;
+  width: 130px;
   background-repeat: no-repeat;
 }
 
