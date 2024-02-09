@@ -4,7 +4,7 @@
       <div
         class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS"
       >
-        <h3 style="color: #0077ff">
+        <h3 class="h1" style="color: #0077ff">
           {{ $t("JumbotronH1P1") }}<br />
           {{ $t("JumbotronH1P2") }}<br />
           {{ $t("JumbotronH1P3") }}
@@ -20,10 +20,7 @@
           {{ $t("JumbotronP1P3") }}
         </p>
         <p>
-          Алишер Бодаубеков <br />
-          <a href="mailto:alisher.bodaubekov@jihc.kz"
-            >alisher.bodaubekov@jihc.kz</a
-          >
+          {{ $t("JumbotronP1P4") }} <br> {{ $t("JumbotronP1P5") }}
         </p>
       </div>
       <div

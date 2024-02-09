@@ -7,34 +7,103 @@
         <hr />
       </h1>
 
-      <div class="row align-self-center gap-5 px-5">
+      <div class="row row-cols-3 align-self-center gap-5 px-5 justify-content-center">
         <div
-          class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
           style="background-color: #0077ff"
         >
-          <i class="bi"><img src="../assets/col2card1.png" alt="" /></i>
+          <i class="bi"><img src="../assets/Column/col3card1.png" alt="" /></i>
           <p class="m-0 text-light">{{ $t("Column2P1") }}</p>
         </div>
         <div
-          class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
           style="background-color: #0077ff"
         >
-          <i class="bi"><img src="../assets/col2card2.png" alt="" /></i>
+          <i class="bi"><img src="../assets/Column/col3card2.png" alt="" /></i>
           <p class="m-0 text-light">
             {{ $t("Column2P2") }}
           </p>
         </div>
         <div
-          class="col d-flex flex-row gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
           style="background-color: #0077ff"
         >
-          <i class="bi"><img src="../assets/col2card3.png" alt="" /></i>
+          <i class="bi"><img src="../assets/Column/col3card3.png" alt="" /></i>
           <p class="m-0 text-light text-light">
             {{ $t("Column2P3") }}
           </p>
         </div>
+        <div
+          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          style="background-color: #0077ff"
+        >
+          <i class="bi"><img src="../assets/Column/col3card4.png" alt="" /></i>
+          <p class="m-0 text-light text-light">
+            {{ $t("Column2P4") }}
+          </p>
+        </div>
+        <div
+          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          style="background-color: #0077ff"
+        >
+          <i class="bi"><img src="../assets/Column/col3card5.png" alt="" /></i>
+          <p class="m-0 text-light text-light">
+            {{ $t("Column2P5") }}
+          </p>
+        </div>
+        <div
+          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          style="background-color: #0077ff"
+        >
+          <i class="bi"><img src="../assets/Column/col3card6.png" alt="" /></i>
+          <p class="m-0 text-light text-light"> 
+            {{ $t("Column2P6") }}
+          </p>
+        </div>
       </div>
     </div>
+
+    <div class="container my-5 d-flex justify-content-center">
+    <div class="size text-center">
+      <h2 class="m-5 text-center" style="color: #0077ff">
+        {{ $t("Column3H1") }}
+        <hr />
+      </h2>
+
+      <div class="row align-items-center gap-5">
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card1.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">67</p>
+          <p class="fw-medium">{{ $t("Column3P1") }}</p>
+        </div>
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card2.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">394</p>
+          <p class="fw-medium">{{ $t("Column3P2") }}</p>
+        </div>
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card3.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">2094</p>
+          <p class="fw-medium">{{ $t("Column3P3") }}</p>
+        </div>
+        <div
+          class="col d-flex flex-column gap-2 text-center justify-content-center p-4 rounded-4 py-3 align-items-center mx-5"
+        >
+          <i class="bi"><img src="../assets/col3card4.png" alt="" /></i>
+          <p class="fs-2 fw-bold m-0">67</p>
+          <p class="fw-medium">{{ $t("Column3P4") }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   </div>
 </template>
 
