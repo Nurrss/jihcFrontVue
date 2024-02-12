@@ -25,6 +25,10 @@
         <li class="list-group-item">
           {{ $t("JumbotronElemLI4") }}
         </li>
+        <li class="list-group-item">
+          Справки подтверждающие наличие определенного социального статуса
+          (многодетная семья, получатель АСП и т.п.)
+        </li>
       </ol>
     </div>
   </div>

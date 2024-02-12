@@ -124,9 +124,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.mar {
-  margin-left: 1px;
-}
+
 .immg {
   background-image: url("../assets/jihc-logo-sdu-v2.svg");
   height: 35px;
