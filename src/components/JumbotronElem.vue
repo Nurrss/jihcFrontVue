@@ -22,9 +22,8 @@
         <li class="list-group-item">{{ $t("JumbotronElemLI1") }}</li>
         <li class="list-group-item">{{ $t("JumbotronElemLI2") }}</li>
         <li class="list-group-item">{{ $t("JumbotronElemLI3") }}</li>
-        <li class="list-group-item">
-          {{ $t("JumbotronElemLI4") }}
-        </li>
+        <li class="list-group-item">{{ $t("JumbotronElemLI4") }}</li>
+        <li class="list-group-item">{{ $t("JumbotronElemLI5") }}</li>
       </ol>
     </div>
   </div>

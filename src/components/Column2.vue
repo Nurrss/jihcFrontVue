@@ -7,16 +7,16 @@
         <hr />
       </h1>
 
-      <div class="row row-cols-3 align-self-center gap-5 px-5 justify-content-center">
+      <div class="row d-flex align-self-center gap-5 justify-content-center p-2">
         <div
-          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-column gap-1 text-center justify-content-center px-5 rounded-4 py-3 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card1.png" alt="" /></i>
           <p class="m-0 text-light">{{ $t("Column2P1") }}</p>
         </div>
         <div
-          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center px-5 rounded-4 py-4 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card2.png" alt="" /></i>
@@ -25,7 +25,7 @@
           </p>
         </div>
         <div
-          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center px-5 rounded-4 py-4 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card3.png" alt="" /></i>
@@ -34,7 +34,7 @@
           </p>
         </div>
         <div
-          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center px-5 rounded-4 py-4 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card4.png" alt="" /></i>
@@ -43,7 +43,7 @@
           </p>
         </div>
         <div
-          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center px-5 rounded-4 py-4 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card5.png" alt="" /></i>
@@ -52,7 +52,7 @@
           </p>
         </div>
         <div
-          class="col-3 d-flex flex-row flex-column gap-3 text-center justify-content-center p-4 rounded-4 py-3 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center p-5 rounded-4 py-4 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card6.png" alt="" /></i>
