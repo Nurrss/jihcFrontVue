@@ -87,7 +87,7 @@
       </div>
     </div>
     <h1 class="m-5 text-center" style="color: #0077ff">
-      Кафедра естсественно - математического цикла
+      Кафедра естественно - математического цикла
       <hr />
     </h1>
     <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
@@ -107,7 +107,7 @@
       </div>
     </div>
     <h1 class="m-5 text-center" style="color: #0077ff">
-      Кафедра информационных технологии
+      Кафедра информационных технологий
       <hr />
     </h1>
     <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
@@ -436,7 +436,7 @@ export default {
       cards2: [
         {
           name: "Кенжебаев Ерлан Бахытұлы",
-          jobTitle: "Завхоз",
+          jobTitle: "Заведующий по хозяйственной части",
           email: "yerlan.kenzhebayev@jihc.kz",
         },
         {
@@ -546,7 +546,7 @@ export default {
       cards4: [
         {
           name: "Тулегенова Ғайша Анафияевна",
-          jobTitle: "Учитель истории",
+          jobTitle: "Учитель истории, руководитель кафедры",
           email: "gaysha.tulegenova@jihc.kz",
         },
         {
@@ -578,7 +578,7 @@ export default {
       cards5: [
         {
           name: "Алиева Қаламқас Жанбырқызы",
-          jobTitle: "Учитель математики",
+          jobTitle: "Учитель математики, руководитель кафедры",
           email: "kalamkas.aliyeva@jihc.kz",
         },
         {
@@ -672,28 +672,33 @@ export default {
       cards7: [
         {
           name: "Бердибаева Айжан Амантаевна",
-          jobTitle: "Учитель экономики, руководитель кафедры",
+          jobTitle: "Преподаватель по финансам",
           email: "aizhan.berdibayeva@jihc.kz",
         },
         {
           name: "Тұрар Қарлығаш Қайратқызы",
-          jobTitle: "Учитель экономики",
+          jobTitle: "Преподаватель по бухгалтерскому учету и 1С",
           email: "qarlygash.turar@jihc.kz",
         },
         {
           name: "Кудайбергенов Ернар Кайратович",
-          jobTitle: "Учитель экономики",
+          jobTitle: "Преподаватель экономики и маркетинга",
           email: "yernar.kudaibergenov@jihc.kz",
         },
         {
           name: "Куандыкова Нурипа Таласбаевна",
-          jobTitle: "Учитель экономики",
+          jobTitle: "Преподаватель по учету и аудиту",
           email: "nuripa.kuandykova@jihc.kz",
         },
         {
           name: "Алтынбекова Шынар Жұмабекқызы",
-          jobTitle: "Учитель экономики",
+          jobTitle: "Преподаватель по менеджменту",
           email: "shynar.altynbekova@jihc.kz",
+        },
+        {
+          name: "Айткүл Аппасова",
+          jobTitle: "преподаватель бухгалтерского учета и 1С",
+          email: "aitkul.appasova@jihc.kz",
         },
       ],
       cards8: [

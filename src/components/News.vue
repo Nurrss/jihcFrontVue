@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <div class="text-center">
-      <h1 class="m-5 text-center" style="color: #0077ff">
+      <!-- <h1 class="m-5 text-center" style="color: #0077ff">
         Объявление
         <hr />
-      </h1>
+      </h1> -->
     </div>
     <div class="row">
       <div class="col-12 col-md-4" v-for="item in cards" :key="item._id">
