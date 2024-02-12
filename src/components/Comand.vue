@@ -451,7 +451,7 @@ export default {
           email: "darina.issabekova@jihc.kz",
         },
         {
-          name: "Машанло Ихтина Джумазовнаы",
+          name: "Машанло Ихтина Джумазовна",
           jobTitle: "Бухгалтер",
           email: "имейл",
         },
