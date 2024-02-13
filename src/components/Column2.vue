@@ -16,7 +16,7 @@
           <p class="m-0 text-light">{{ $t("Column2P1") }}</p>
         </div>
         <div
-          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center px-5 rounded-4 py-4 align-items-center"
+          class="col-5 col-lg-3 d-flex flex-row flex-column gap-1 text-center justify-content-center px-5  py-4 align-items-center"
           style="background-color: #0077ff"
         >
           <i class="bi"><img src="../assets/Column/col3card2.png" alt="" /></i>

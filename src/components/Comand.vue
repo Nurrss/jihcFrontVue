@@ -4,23 +4,21 @@
       Руководство
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
-      <div v-for="(card, index) in cards" :key="index" class="col-md-3">
+    <div class="row g-4 d-flex justify-content-center">
+      <div v-for="(card, index) in cards" :key="index" class="col-lg-3 col-md-5">
         <div class="card text-white rounded-5 shadow-risen">
           <img
             class="card-img rounded-5"
             :src="card.imgPath"
             alt="Card image"
           />
-
-          <div class="inner-shadow-bottom"></div>
           <div class="card-img-overlay d-flex flex-column">
             <div class="mt-auto">
-              <h5 class="card-title">{{ card.jobTitle }}</h5>
-              <h3 class="card-text font-weight-bold">
-                <span class="mr-auto fw-bold">{{ card.name }}</span>
+              <h3 class="card-text font-weight-bold h4">
+                <span class="d-flex flex-column md-3 fw-bold">{{ card.name }}</span>
               </h3>
-              <h6 class="card-title">{{ card.email }}</h6>
+              <p class="card-title" style="font-size: 0.9rem;">{{ card.jobTitle }}</p>
+              <a :href="`mailto:${card.email}`" class="card-title text-decoration-underline">{{ card.email }}</a>
             </div>
           </div>
         </div>
@@ -30,9 +28,9 @@
       Администрация
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards2"
         :key="card.email"
         style="background-color: #0077ff"
@@ -50,9 +48,9 @@
       Кафедра языков
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards3"
         :key="card.email"
         style="background-color: #00805e"
@@ -70,9 +68,9 @@
       Кафедра гуманитарных наук и физической культуры
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards4"
         :key="card.email"
         style="background-color: #43188a"
@@ -90,9 +88,9 @@
       Кафедра естественно - математического цикла
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards5"
         :key="card.email"
         style="background-color: #ff9100"
@@ -110,9 +108,9 @@
       Кафедра информационных технологий
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards6"
         :key="card.email"
         style="background-color: #0077ff"
@@ -130,9 +128,9 @@
       Кафедра учета и аудита
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards7"
         :key="card.email"
         style="background-color: #00a353"
@@ -150,9 +148,9 @@
       Воспитатели
       <hr />
     </h1>
-    <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center">
+    <div class="row g-3 mx-4 gap-3 d-flex justify-content-start">
       <div
-        class="col-md-3 g-2 rounded py-2 mx-2 frame justify-content-center d-flex flex-column"
+        class="col-lg-6 gap-3 rounded-5 p-4 frame d-flex flex-column"
         v-for="card in cards8"
         :key="card.email"
         style="background-color: #0077ff"
@@ -187,16 +185,16 @@ export default {
           email: "erzhan.koishybekov@jihc.kz",
         },
         {
-          imgPath: require("../assets/jihc/comand/Бақытжан Қазанғапов.avif"),
-          jobTitle: "Заместитель директора по воспитательной работе",
-          name: "Бақытжан Қазанғапов",
-          email: "bakytzhan.kazangapov@jihc.kz",
-        },
-        {
           imgPath: require("../assets/jihc/comand/Сарманов Айдос.avif"),
           jobTitle: "Заместитель директора по воспитательной работе",
           name: "Айдос Сарманов",
           email: "aidos.sarmanov@jihc.kz",
+        },
+        {
+          imgPath: require("../assets/jihc/comand/Бақытжан Қазанғапов.avif"),
+          jobTitle: "Заместитель директора по воспитательной работе",
+          name: "Бақытжан Қазанғапов",
+          email: "bakytzhan.kazangapov@jihc.kz",
         },
         {
           imgPath: require("../assets/jihc/comand/Ақжан Нұрекеева.avif"),
@@ -453,7 +451,7 @@ export default {
         {
           name: "Машанло Ихтина Джумазовнаы",
           jobTitle: "Бухгалтер",
-          email: "имейл",
+          email: "ihtina.mashanlo@jihc.kz",
         },
         {
           name: "Рахманкулова Гульдана Мадыхановна",
@@ -672,7 +670,7 @@ export default {
       cards7: [
         {
           name: "Бердибаева Айжан Амантаевна",
-          jobTitle: "Преподаватель по финансам",
+          jobTitle: "Преподаватель по финансам, руководитель кафедры",
           email: "aizhan.berdibayeva@jihc.kz",
         },
         {
@@ -834,7 +832,7 @@ export default {
   font-size: 12px;
 }
 .frame {
-  max-width: 213px;
+  max-width: 300px;
 }
 /* Add your component-specific styles here */
 .inner-shadow-bottom {
